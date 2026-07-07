@@ -22,11 +22,22 @@ export function ThemeToggle({
 
   useEffect(() => {
     const current = document.documentElement.dataset.theme;
-    setTheme(current === "dark" ? "dark" : "light");
+    const theme = localStorage.getItem("theme");
+
+    setTheme((theme ?? current) === "dark" ? "dark" : "light");
+
+    if(!theme) return;
+
+    localStorage.setItem("theme", theme);
+
+    document.documentElement.dataset.theme = theme;
   }, []);
 
   function toggle() {
     const next: Theme = theme === "dark" ? "light" : "dark";
+
+    const localTheme = localStorage.getItem("theme");
+
     document.documentElement.dataset.theme = next;
     try {
       localStorage.setItem("theme", next);
