@@ -5,7 +5,7 @@
  */
 export const site = {
   /** Production origin. Used for metadataBase, canonical URLs, OG, sitemap, JSON-LD. */
-  url: "https://babylontranslationagency.com",
+  url: "https://www.babylontranslationagency.com",
   /** Brand name (Latin, used in logo, OG images and schema). */
   name: "Babylon",
   legalName: "Babylon Translation Agency",
