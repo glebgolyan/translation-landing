@@ -56,11 +56,20 @@ export async function generateMetadata({
       description: dict.meta.description,
       locale: ogLocales[locale],
       alternateLocale: locales.filter((l) => l !== locale).map((l) => ogLocales[l]),
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "Babylon Translation Agency",
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: dict.meta.title,
       description: dict.meta.description,
+      images: ["/og-image.png"],
     },
     robots: { index: true, follow: true },
     formatDetection: { telephone: true },
