@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "Agence de traduction Babylon à Loutsk — traduction, apostille, notarisation",
+    "description": "Agence de traduction Babylon à Loutsk, Ukraine : traduction vers toutes les langues du monde, notarisation des traductions, apostille de documents, certificat de non-condamnation et légalisation professionnelle de documents. Téléphone : 096 344 1021."
+  },
+  "header": {
+    "home": "Babylon — accueil",
+    "language": "Langue du site",
+    "themeToggle": "Changer de thème",
+    "themeLight": "Activer le thème clair",
+    "themeDark": "Activer le thème sombre"
+  },
+  "hero": {
+    "eyebrow": "Agence de traduction · Loutsk",
+    "title": "Agence de traduction Babylon à Loutsk",
+    "tagline": "Nous traduisons vos documents vers toutes les langues du monde et prenons en charge toutes les formalités — de la notarisation à l'apostille et à la légalisation.",
+    "ribbonLabel": "Le mot « traduction » dans les langues du monde"
+  },
+  "services": {
+    "title": "Nos services",
+    "items": [
+      "Traduction vers toutes les langues du monde",
+      "Notarisation des traductions",
+      "Apostille de documents",
+      "Certificat de non-condamnation",
+      "Légalisation professionnelle de documents"
+    ]
+  },
+  "contacts": {
+    "title": "Contactez-nous",
+    "lead": "Écrivez-nous sur votre messagerie préférée ou appelez-nous : nous répondons pendant les heures d'ouverture.",
+    "phoneLabel": "Téléphone",
+    "emailLabel": "E-mail",
+    "viberAria": "Nous écrire sur Viber",
+    "telegramAria": "Nous écrire sur Telegram",
+    "whatsappAria": "Nous écrire sur WhatsApp",
+    "emailAria": "Nous envoyer un e-mail",
+    "emailButton": "E-mail"
+  },
+  "hours": {
+    "title": "Horaires d'ouverture",
+    "closed": "Fermé",
+    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+  },
+  "map": {
+    "title": "Où nous trouver",
+    "iframeTitle": "Carte : agence de traduction Babylon à Loutsk",
+    "addressLabel": "Adresse",
+    "address": "2 rue Vynnytchenka, Loutsk, oblast de Volhynie, 43000, Ukraine",
+    "openInMaps": "Ouvrir dans Google Maps"
+  },
+  "footer": {
+    "rights": "Agence de traduction Babylon. Tous droits réservés."
+  }
+}

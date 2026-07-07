@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "巴比伦翻译社（卢茨克）— 翻译、海牙认证、公证",
+    "description": "巴比伦翻译社位于乌克兰卢茨克：提供全球各语种翻译、译文公证、文件海牙认证（Apostille）、无犯罪记录证明及专业文件合法化服务。电话：096 344 1021。"
+  },
+  "header": {
+    "home": "巴比伦 — 返回首页",
+    "language": "网站语言",
+    "themeToggle": "切换主题",
+    "themeLight": "切换到浅色主题",
+    "themeDark": "切换到深色主题"
+  },
+  "hero": {
+    "eyebrow": "翻译社 · 卢茨克",
+    "title": "巴比伦翻译社（卢茨克）",
+    "tagline": "我们提供全球各语种文件翻译，并为您办理全部手续——从公证到海牙认证与文件合法化。",
+    "ribbonLabel": "“翻译”一词的世界各语言写法"
+  },
+  "services": {
+    "title": "我们的服务",
+    "items": [
+      "覆盖全球各语种的翻译",
+      "译文公证",
+      "文件海牙认证（Apostille）",
+      "无犯罪记录证明",
+      "专业文件合法化"
+    ]
+  },
+  "contacts": {
+    "title": "联系我们",
+    "lead": "欢迎通过常用的即时通讯软件联系我们，或直接来电——我们将在工作时间内回复。",
+    "phoneLabel": "电话",
+    "emailLabel": "电子邮箱",
+    "viberAria": "通过 Viber 联系我们",
+    "telegramAria": "通过 Telegram 联系我们",
+    "whatsappAria": "通过 WhatsApp 联系我们",
+    "emailAria": "给我们发送电子邮件",
+    "emailButton": "电子邮箱"
+  },
+  "hours": {
+    "title": "营业时间",
+    "closed": "休息",
+    "days": ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"]
+  },
+  "map": {
+    "title": "地址位置",
+    "iframeTitle": "地图：巴比伦翻译社（卢茨克）",
+    "addressLabel": "地址",
+    "address": "乌克兰沃伦州卢茨克市温尼琴卡街2号，邮编 43000",
+    "openInMaps": "在 Google 地图中打开"
+  },
+  "footer": {
+    "rights": "巴比伦翻译社。保留所有权利。"
+  }
+}

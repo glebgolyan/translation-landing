@@ -1,0 +1,25 @@
+{
+  "name": "babylon-translation-agency",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Babylon Translation Agency — production-ready, SEO-optimized Next.js landing page",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fontsource-variable/literata": "^5.2.0",
+    "@fontsource/ibm-plex-sans": "^5.2.0",
+    "next": "^16.2.10",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "Babylon Translation Agency in Lutsk — Translation, Apostille, Notarization",
+    "description": "Babylon Translation Agency in Lutsk, Ukraine: translation into all world languages, notarization of translations, document apostille, certificate of no criminal record, professional document legalization. Phone: 096 344 1021."
+  },
+  "header": {
+    "home": "Babylon — home",
+    "language": "Site language",
+    "themeToggle": "Toggle theme",
+    "themeLight": "Switch to light theme",
+    "themeDark": "Switch to dark theme"
+  },
+  "hero": {
+    "eyebrow": "Translation agency · Lutsk",
+    "title": "Babylon Translation Agency in Lutsk",
+    "tagline": "We translate documents into every language of the world and handle all the formalities for you — from notarization to apostille and legalization.",
+    "ribbonLabel": "The word “translation” in the languages of the world"
+  },
+  "services": {
+    "title": "Our services",
+    "items": [
+      "Translation into all world languages",
+      "Notarization of translations",
+      "Apostille of documents",
+      "Certificate of no criminal record",
+      "Professional document legalization"
+    ]
+  },
+  "contacts": {
+    "title": "Get in touch",
+    "lead": "Message us in your favourite app or call — we reply during working hours.",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "viberAria": "Message us on Viber",
+    "telegramAria": "Message us on Telegram",
+    "whatsappAria": "Message us on WhatsApp",
+    "emailAria": "Send us an email",
+    "emailButton": "Email"
+  },
+  "hours": {
+    "title": "Working hours",
+    "closed": "Closed",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  "map": {
+    "title": "Where to find us",
+    "iframeTitle": "Map: Babylon Translation Agency in Lutsk",
+    "addressLabel": "Address",
+    "address": "2 Vynnychenka St, Lutsk, Volyn Oblast, 43000, Ukraine",
+    "openInMaps": "Open in Google Maps"
+  },
+  "footer": {
+    "rights": "Babylon Translation Agency. All rights reserved."
+  }
+}
