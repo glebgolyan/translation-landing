@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Agenzia di Traduzioni Babylon a Lutsk — Traduzioni, Apostille, Autenticazione notarile",
+    "description": "Agenzia di Traduzioni Babylon a Lutsk, Ucraina: traduzioni in tutte le lingue del mondo, autenticazione notarile delle traduzioni, apostille dei documenti, certificato dei carichi pendenti, legalizzazione professionale dei documenti. Tel.: 096 344 1021."
+  },
+  "header": {
+    "home": "Babylon — Home",
+    "language": "Lingua del sito",
+    "themeToggle": "Cambia tema",
+    "themeLight": "Passa al tema chiaro",
+    "themeDark": "Passa al tema scuro"
+  },
+  "hero": {
+    "eyebrow": "Agenzia di traduzioni · Lutsk",
+    "title": "Agenzia di Traduzioni Babylon a Lutsk",
+    "tagline": "Traduciamo documenti in tutte le lingue del mondo e ci occupiamo di tutte le formalità, dall'autenticazione notarile all'apostille e alla legalizzazione.",
+    "ribbonLabel": "La parola «traduzione» nelle lingue del mondo"
+  },
+  "services": {
+    "title": "I nostri servizi",
+    "items": [
+      "Traduzioni in tutte le lingue del mondo",
+      "Autenticazione notarile delle traduzioni",
+      "Apostille dei documenti",
+      "Certificato dei carichi pendenti",
+      "Legalizzazione professionale dei documenti"
+    ]
+  },
+  "contacts": {
+    "title": "Contattaci",
+    "lead": "Scrivici tramite la tua app preferita o chiamaci: rispondiamo durante l'orario di lavoro.",
+    "phoneLabel": "Telefono",
+    "emailLabel": "E-mail",
+    "viberAria": "Contattaci su Viber",
+    "telegramAria": "Contattaci su Telegram",
+    "whatsappAria": "Contattaci su WhatsApp",
+    "emailAria": "Invia un'e-mail",
+    "emailButton": "E-mail"
+  },
+  "hours": {
+    "title": "Orari di apertura",
+    "closed": "Chiuso",
+    "days": [
+      "Lunedì",
+      "Martedì",
+      "Mercoledì",
+      "Giovedì",
+      "Venerdì",
+      "Sabato",
+      "Domenica"
+    ]
+  },
+  "map": {
+    "title": "Dove trovarci",
+    "iframeTitle": "Mappa: Agenzia di Traduzioni Babylon a Lutsk",
+    "addressLabel": "Indirizzo",
+    "address": "Via Vynnychenka 2, Lutsk, Regione di Volinia, 43000, Ucraina",
+    "openInMaps": "Apri in Google Maps"
+  },
+  "footer": {
+    "rights": "Agenzia di Traduzioni Babylon. Tutti i diritti riservati."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Biuro Tłumaczeń Babylon w Łucku — Tłumaczenia, Apostille, Notarialne poświadczenie",
+    "description": "Biuro Tłumaczeń Babylon w Łucku, Ukraina: tłumaczenia na wszystkie języki świata, notarialne poświadczenie tłumaczeń, apostille dokumentów, zaświadczenia o niekaralności, profesjonalna legalizacja dokumentów. Tel.: 096 344 1021."
+  },
+  "header": {
+    "home": "Babylon — strona główna",
+    "language": "Język strony",
+    "themeToggle": "Przełącz motyw",
+    "themeLight": "Przełącz na jasny motyw",
+    "themeDark": "Przełącz na ciemny motyw"
+  },
+  "hero": {
+    "eyebrow": "Biuro tłumaczeń · Łuck",
+    "title": "Biuro Tłumaczeń Babylon w Łucku",
+    "tagline": "Tłumaczymy dokumenty na wszystkie języki świata i zajmujemy się wszystkimi formalnościami — od poświadczenia notarialnego po apostille i legalizację.",
+    "ribbonLabel": "Słowo „tłumaczenie” w językach świata"
+  },
+  "services": {
+    "title": "Nasze usługi",
+    "items": [
+      "Tłumaczenia na wszystkie języki świata",
+      "Notarialne poświadczenie tłumaczeń",
+      "Apostille dokumentów",
+      "Zaświadczenie o niekaralności",
+      "Profesjonalna legalizacja dokumentów"
+    ]
+  },
+  "contacts": {
+    "title": "Skontaktuj się z nami",
+    "lead": "Napisz do nas w ulubionym komunikatorze lub zadzwoń — odpowiadamy w godzinach pracy.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-mail",
+    "viberAria": "Napisz do nas na Viberze",
+    "telegramAria": "Napisz do nas na Telegramie",
+    "whatsappAria": "Napisz do nas na WhatsApp",
+    "emailAria": "Wyślij wiadomość e-mail",
+    "emailButton": "E-mail"
+  },
+  "hours": {
+    "title": "Godziny otwarcia",
+    "closed": "Zamknięte",
+    "days": [
+      "Poniedziałek",
+      "Wtorek",
+      "Środa",
+      "Czwartek",
+      "Piątek",
+      "Sobota",
+      "Niedziela"
+    ]
+  },
+  "map": {
+    "title": "Jak nas znaleźć",
+    "iframeTitle": "Mapa: Biuro Tłumaczeń Babylon w Łucku",
+    "addressLabel": "Adres",
+    "address": "ul. Wynnyczenki 2, Łuck, obwód wołyński, 43000, Ukraina",
+    "openInMaps": "Otwórz w Google Maps"
+  },
+  "footer": {
+    "rights": "Biuro Tłumaczeń Babylon. Wszelkie prawa zastrzeżone."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Babylon Übersetzungsbüro in Luzk — Übersetzungen, Apostille, Beglaubigung",
+    "description": "Babylon Übersetzungsbüro in Luzk, Ukraine: Übersetzungen in alle Weltsprachen, notarielle Beglaubigung von Übersetzungen, Apostille für Dokumente, Führungszeugnis, professionelle Dokumentenlegalisierung. Tel.: 096 344 1021."
+  },
+  "header": {
+    "home": "Babylon – Startseite",
+    "language": "Seitensprache",
+    "themeToggle": "Design wechseln",
+    "themeLight": "Zum hellen Design wechseln",
+    "themeDark": "Zum dunklen Design wechseln"
+  },
+  "hero": {
+    "eyebrow": "Übersetzungsbüro · Luzk",
+    "title": "Babylon Übersetzungsbüro in Luzk",
+    "tagline": "Wir übersetzen Dokumente in alle Sprachen der Welt und übernehmen sämtliche Formalitäten – von der notariellen Beglaubigung bis zur Apostille und Legalisierung.",
+    "ribbonLabel": "Das Wort „Übersetzung“ in den Sprachen der Welt"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "items": [
+      "Übersetzungen in alle Weltsprachen",
+      "Notarielle Beglaubigung von Übersetzungen",
+      "Apostille für Dokumente",
+      "Führungszeugnis",
+      "Professionelle Dokumentenlegalisierung"
+    ]
+  },
+  "contacts": {
+    "title": "Kontaktieren Sie uns",
+    "lead": "Schreiben Sie uns über Ihren bevorzugten Messenger oder rufen Sie uns an – wir antworten während unserer Geschäftszeiten.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-Mail",
+    "viberAria": "Kontakt über Viber",
+    "telegramAria": "Kontakt über Telegram",
+    "whatsappAria": "Kontakt über WhatsApp",
+    "emailAria": "E-Mail senden",
+    "emailButton": "E-Mail"
+  },
+  "hours": {
+    "title": "Öffnungszeiten",
+    "closed": "Geschlossen",
+    "days": [
+      "Montag",
+      "Dienstag",
+      "Mittwoch",
+      "Donnerstag",
+      "Freitag",
+      "Samstag",
+      "Sonntag"
+    ]
+  },
+  "map": {
+    "title": "So finden Sie uns",
+    "iframeTitle": "Karte: Babylon Übersetzungsbüro in Luzk",
+    "addressLabel": "Adresse",
+    "address": "Wynnytschenka-Straße 2, Luzk, Oblast Wolhynien, 43000, Ukraine",
+    "openInMaps": "In Google Maps öffnen"
+  },
+  "footer": {
+    "rights": "Babylon Übersetzungsbüro. Alle Rechte vorbehalten."
+  }
+}

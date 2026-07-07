@@ -5,6 +5,9 @@ export type Dictionary = typeof import("./locales/uk.json");
 const dictionaries: Record<Locale, () => Promise<Dictionary>> = {
   uk: () => import("./locales/uk.json").then((m) => m.default),
   en: () => import("./locales/en.json").then((m) => m.default),
+  pl: () => import("./locales/pl.json").then((m) => m.default),
+  de: () => import("./locales/de.json").then((m) => m.default),
+  it: () => import("./locales/it.json").then((m) => m.default),
   zh: () => import("./locales/zh.json").then((m) => m.default),
   hi: () => import("./locales/hi.json").then((m) => m.default),
   es: () => import("./locales/es.json").then((m) => m.default),

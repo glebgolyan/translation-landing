@@ -1,13 +1,16 @@
 export const locales = [
   "uk", // Ukrainian (default)
   "en", // English
-  "zh", // Mandarin Chinese
-  "hi", // Hindi
+  "pl", // Polish
+  "de", // German
+  "it", // Italian
   "es", // Spanish
   "fr", // French
+  "pt", // Portuguese
+  "zh", // Mandarin Chinese
+  "hi", // Hindi
   "ar", // Arabic
   "bn", // Bengali
-  "pt", // Portuguese
   "ur", // Urdu
 ] as const;
 
@@ -30,6 +33,9 @@ export function dirFor(locale: Locale): "ltr" | "rtl" {
 export const localeNames: Record<Locale, string> = {
   uk: "Українська",
   en: "English",
+  pl: "Polski",
+  de: "Deutsch",
+  it: "Italiano",
   zh: "中文",
   hi: "हिन्दी",
   es: "Español",
@@ -44,6 +50,9 @@ export const localeNames: Record<Locale, string> = {
 export const ogLocales: Record<Locale, string> = {
   uk: "uk_UA",
   en: "en_US",
+  pl: "pl_PL",
+  de: "de_DE",
+  it: "it_IT",
   zh: "zh_CN",
   hi: "hi_IN",
   es: "es_ES",
@@ -58,6 +67,9 @@ export const ogLocales: Record<Locale, string> = {
 export const translationWords: Record<Locale, string> = {
   uk: "переклад",
   en: "translation",
+  pl: "tłumaczenie",
+  de: "Übersetzung",
+  it: "traduzione",
   zh: "翻译",
   hi: "अनुवाद",
   es: "traducción",
