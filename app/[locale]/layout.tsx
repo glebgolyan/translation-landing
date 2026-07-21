@@ -44,6 +44,9 @@ export async function generateMetadata({
     metadataBase: new URL(site.url),
     title: dict.meta.title,
     description: dict.meta.description,
+
+    keywords: dict.meta.keywords,
+
     alternates: {
       canonical: `/${locale}`,
       languages,
