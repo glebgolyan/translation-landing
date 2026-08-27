@@ -28,12 +28,21 @@
     "eyebrow": "Translation agency · Lutsk",
     "title": "Babylon Translation Agency in Lutsk",
     "tagline": "We translate documents into every language of the world and handle all the formalities for you — from notarization to apostille and legalization.",
-    "ribbonLabel": "The word “translation” in the languages of the world"
+    "ribbonLabel": "Popular translation and legalization services",
+    "highlights": [
+      "Translation into English",
+      "Translation into Polish",
+      "Translation into German",
+      "Apostille of educational documents",
+      "Notarized translation of a passport",
+      "Translation of a birth certificate"
+    ]
   },
   "services": {
     "title": "Our services",
     "items": [
       "Translation into all world languages",
+      "Translation into Polish (including certified/sworn translation)",
       "Notarization of translations",
       "Apostille of documents",
       "Certificate of no criminal record",
@@ -65,5 +74,26 @@
   },
   "footer": {
     "rights": "Babylon Translation Agency. All rights reserved."
+  },
+  "whyUs": {
+    "title": "Why choose Babylon",
+    "lead": "We handle the whole process for you — translation, notarization, apostille and legalization — so you don't need to visit several different offices. We put particular emphasis on translation into Polish: given how close Lutsk is to the Polish border, it's one of the most requested directions among our clients."
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "How much does document translation or an apostille cost?",
+        "answer": "The price depends on the language, the size of the document and how urgently you need it. Call us or message us — we'll give you an exact price right away."
+      },
+      {
+        "question": "How long does an apostille take in Lutsk?",
+        "answer": "The apostille timeline depends on the authority that issued the document and how urgent the order is. Please check current timeframes by phone or messenger."
+      },
+      {
+        "question": "Do you translate documents into Polish?",
+        "answer": "Yes — translation into Polish is one of our most popular services, given how close Lutsk is to the Polish border. We provide both standard and notarized translation."
+      }
+    ]
   }
 }

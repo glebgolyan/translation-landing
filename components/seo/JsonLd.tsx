@@ -46,7 +46,7 @@ export function JsonLd({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           "@type": "Offer",
           itemOffered: { "@type": "Service", name: service },
         })),
-        sameAs: [`https://t.me/${site.telegramUser}`],
+        sameAs: [`https://t.me/${site.telegramUser}`, site.instagramUrl],
       },
       {
         "@type": "WebSite",
@@ -65,6 +65,16 @@ export function JsonLd({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         inLanguage: locale,
         isPartOf: { "@id": webSiteId },
         about: { "@id": orgId },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${pageUrl}#faq`,
+        inLanguage: locale,
+        mainEntity: dict.faq.items.map((item) => ({
+          "@type": "Question",
+          name: item.question,
+          acceptedAnswer: { "@type": "Answer", text: item.answer },
+        })),
       },
     ],
   };

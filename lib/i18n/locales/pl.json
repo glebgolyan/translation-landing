@@ -14,6 +14,10 @@
       "переклад паспорта",
       "переклад диплома",
       "легалізація документів",
+      "tłumaczenie na polski Łuck",
+      "tłumacz przysięgły Łuck",
+      "biuro tłumaczeń Łuck",
+      "tłumaczenie ukraińsko-polskie",
       "translation agency Lutsk"
     ]
   },
@@ -27,13 +31,22 @@
   "hero": {
     "eyebrow": "Biuro tłumaczeń · Łuck",
     "title": "Biuro Tłumaczeń Babylon w Łucku",
-    "tagline": "Tłumaczymy dokumenty na wszystkie języki świata i zajmujemy się wszystkimi formalnościami — od poświadczenia notarialnego po apostille i legalizację.",
-    "ribbonLabel": "Słowo „tłumaczenie” w językach świata"
+    "tagline": "Tłumaczymy dokumenty na wszystkie języki świata, w tym na polski, i zajmujemy się wszystkimi formalnościami — od poświadczenia notarialnego po apostille i legalizację.",
+    "ribbonLabel": "Popularne kierunki tłumaczeń i legalizacji",
+    "highlights": [
+      "Tłumaczenie na angielski",
+      "Tłumaczenie na polski",
+      "Tłumaczenie na niemiecki",
+      "Apostille dokumentów edukacyjnych",
+      "Tłumaczenie przysięgłe paszportu",
+      "Tłumaczenie aktu urodzenia"
+    ]
   },
   "services": {
     "title": "Nasze usługi",
     "items": [
       "Tłumaczenia na wszystkie języki świata",
+      "Tłumaczenia na język polski (w tym przysięgłe)",
       "Notarialne poświadczenie tłumaczeń",
       "Apostille dokumentów",
       "Zaświadczenie o niekaralności",
@@ -73,5 +86,26 @@
   },
   "footer": {
     "rights": "Biuro Tłumaczeń Babylon. Wszelkie prawa zastrzeżone."
+  },
+  "whyUs": {
+    "title": "Dlaczego warto wybrać Babylon",
+    "lead": "Zajmujemy się całym procesem: tłumaczeniem, poświadczeniem notarialnym, apostille i legalizacją — bez konieczności chodzenia po kilku różnych miejscach. Szczególnie mocno stawiamy na tłumaczenia na język polski: ze względu na bliskość Łucka do granicy z Polską to jeden z najczęściej zamawianych kierunków wśród naszych klientów."
+  },
+  "faq": {
+    "title": "Najczęstsze pytania",
+    "items": [
+      {
+        "question": "Ile kosztuje tłumaczenie dokumentów lub apostille?",
+        "answer": "Cena zależy od języka, objętości dokumentu i terminu realizacji. Zadzwoń do nas lub napisz na komunikatorze — od razu podamy dokładną cenę."
+      },
+      {
+        "question": "Ile czasu zajmuje apostille w Łucku?",
+        "answer": "Czas apostillowania zależy od urzędu, który wydał dokument, oraz od pilności zlecenia. Aktualne terminy sprawdź telefonicznie lub na komunikatorze."
+      },
+      {
+        "question": "Czy tłumaczycie dokumenty na język polski?",
+        "answer": "Tak, tłumaczenia na język polski to jeden z najpopularniejszych kierunków w naszym biurze — ze względu na bliskość Łucka do granicy z Polską. Wykonujemy zarówno tłumaczenia zwykłe, jak i poświadczone notarialnie."
+      }
+    ]
   }
 }
