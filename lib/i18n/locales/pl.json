@@ -32,7 +32,15 @@
     "eyebrow": "Biuro tłumaczeń · Łuck",
     "title": "Biuro Tłumaczeń Babylon w Łucku",
     "tagline": "Tłumaczymy dokumenty na wszystkie języki świata, w tym na polski, i zajmujemy się wszystkimi formalnościami — od poświadczenia notarialnego po apostille i legalizację.",
-    "ribbonLabel": "Słowo „tłumaczenie” w językach świata"
+    "ribbonLabel": "Popularne kierunki tłumaczeń i legalizacji",
+    "highlights": [
+      "Tłumaczenie na angielski",
+      "Tłumaczenie na polski",
+      "Tłumaczenie na niemiecki",
+      "Apostille dokumentów edukacyjnych",
+      "Tłumaczenie przysięgłe paszportu",
+      "Tłumaczenie aktu urodzenia"
+    ]
   },
   "services": {
     "title": "Nasze usługi",

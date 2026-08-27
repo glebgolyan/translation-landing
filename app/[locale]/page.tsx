@@ -1,4 +1,4 @@
-import { isLocale, translationWords, locales, type Locale } from "@/lib/i18n/config";
+import { isLocale, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { notFound } from "next/navigation";
 import { ContactButtons } from "@/components/ContactButtons";
@@ -25,10 +25,10 @@ export default async function LandingPage({ params }: PageProps) {
           </h1>
           <p className="tagline">{dict.hero.tagline}</p>
           <p className="ribbon" aria-label={dict.hero.ribbonLabel}>
-            {locales.map((l, i) => (
-              <span key={l} lang={l} className="ribbonWord">
-                {translationWords[l]}
-                {i < locales.length - 1 && (
+            {dict.hero.highlights.map((item, i) => (
+              <span key={item} className="ribbonWord">
+                {item}
+                {i < dict.hero.highlights.length - 1 && (
                   <span className="ribbonDot" aria-hidden="true">
                     ·
                   </span>
@@ -81,6 +81,20 @@ export default async function LandingPage({ params }: PageProps) {
           </p>
         </section>
 
+        <section className="faqSection" aria-labelledby="faq-title">
+          <h2 id="faq-title" className="sectionTitle">
+            {dict.faq.title}
+          </h2>
+          <div className="faqList">
+            {dict.faq.items.map((item) => (
+              <details key={item.question} className="faqItem">
+                <summary>{item.question}</summary>
+                <p className="faqAnswer">{item.answer}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+
         <section className="hoursSection" aria-labelledby="hours-title">
           <h2 id="hours-title" className="sectionTitle">
             {dict.hours.title}
@@ -91,26 +105,10 @@ export default async function LandingPage({ params }: PageProps) {
     </main>
 
     <section className="seoSection" aria-labelledby="why-us-title">
-      <div>
-        <h2 id="why-us-title" className="sectionTitle">
-          {dict.whyUs.title}
-        </h2>
-        <p className="leadText">{dict.whyUs.lead}</p>
-      </div>
-
-      <div>
-        <h2 id="faq-title" className="sectionTitle">
-          {dict.faq.title}
-        </h2>
-        <div className="faqList" aria-labelledby="faq-title">
-          {dict.faq.items.map((item) => (
-            <details key={item.question} className="faqItem">
-              <summary>{item.question}</summary>
-              <p className="faqAnswer">{item.answer}</p>
-            </details>
-          ))}
-        </div>
-      </div>
+      <h2 id="why-us-title" className="sectionTitle">
+        {dict.whyUs.title}
+      </h2>
+      <p className="leadText">{dict.whyUs.lead}</p>
     </section>
     </>
   );

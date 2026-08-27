@@ -467,19 +467,8 @@ a {
 /* ============ SEO content: why-us + FAQ ============ */
 
 .seoSection {
-  display: flex;
-  flex-direction: column;
-  gap: clamp(1.25rem, 2.5vh, 2rem);
   padding-block: clamp(1.25rem, 2.5vh, 2rem);
   border-block-start: 1px solid var(--line);
-}
-
-@media (min-width: 48rem) {
-  .seoSection {
-    display: grid;
-    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
-    gap: clamp(1.5rem, 3vw, 3rem);
-  }
 }
 
 .leadText {
@@ -563,29 +552,8 @@ a {
     align-content: stretch;
   }
 
-  .colAside {
-    display: grid;
-    grid-template-rows: 1fr auto;
-    gap: 1.25rem;
-  }
-
-  .mapSection {
-    display: flex;
-    flex-direction: column;
-    min-block-size: 0;
-  }
-
-  .mapFrameWrap {
-    flex: 1;
-    min-block-size: 0;
-    display: flex;
-    flex-direction: column;
-  }
-
   .mapFrame {
-    flex: 1;
-    aspect-ratio: auto;
-    block-size: 100%;
+    aspect-ratio: 2 / 1;
   }
 
   .serviceList {
@@ -597,31 +565,6 @@ a {
   }
 }
 
-/* Very short desktop viewports: allow scroll rather than clipping content */
-@media (min-width: 64rem) and (max-height: 40rem) {
-  .page {
-    block-size: auto;
-    min-block-size: 100dvh;
-    overflow: visible;
-  }
-
-  .main {
-    overflow: visible;
-  }
-
-  .mapFrame {
-    aspect-ratio: 4 / 3;
-    block-size: auto;
-  }
-
-  .contacts {
-    animation-delay: 0.12s;
-    order: 2;
-  }
-
-
-}
-
 /* ============ Motion ============ */
 
 @media (prefers-reduced-motion: no-preference) {
@@ -629,6 +572,7 @@ a {
   .services,
   .contacts,
   .mapSection,
+  .faqSection,
   .hoursSection,
   .seoSection {
     animation: rise 0.5s ease both;
@@ -650,6 +594,10 @@ a {
 
   .mapSection {
     animation-delay: 0.1s;
+  }
+
+  .faqSection {
+    animation-delay: 0.13s;
   }
 
   .hoursSection {

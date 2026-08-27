@@ -28,7 +28,15 @@
     "eyebrow": "Übersetzungsbüro · Luzk",
     "title": "Babylon Übersetzungsbüro in Luzk",
     "tagline": "Wir übersetzen Dokumente in alle Sprachen der Welt und übernehmen sämtliche Formalitäten – von der notariellen Beglaubigung bis zur Apostille und Legalisierung.",
-    "ribbonLabel": "Das Wort „Übersetzung“ in den Sprachen der Welt"
+    "ribbonLabel": "Beliebte Übersetzungs- und Legalisierungsleistungen",
+    "highlights": [
+      "Übersetzung ins Englische",
+      "Übersetzung ins Polnische",
+      "Übersetzung ins Deutsche",
+      "Apostille für Bildungsdokumente",
+      "Notariell beglaubigte Passübersetzung",
+      "Übersetzung der Geburtsurkunde"
+    ]
   },
   "services": {
     "title": "Unsere Dienstleistungen",

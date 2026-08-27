@@ -28,7 +28,15 @@
     "eyebrow": "Agencia de traducción · Lutsk",
     "title": "Agencia de traducción Babylon en Lutsk",
     "tagline": "Traducimos documentos a todos los idiomas del mundo y nos ocupamos de todos los trámites: de la notarización a la apostilla y la legalización.",
-    "ribbonLabel": "La palabra «traducción» en los idiomas del mundo"
+    "ribbonLabel": "Servicios de traducción y legalización más solicitados",
+    "highlights": [
+      "Traducción al inglés",
+      "Traducción al polaco",
+      "Traducción al alemán",
+      "Apostilla de documentos educativos",
+      "Traducción notariada del pasaporte",
+      "Traducción del certificado de nacimiento"
+    ]
   },
   "services": {
     "title": "Nuestros servicios",

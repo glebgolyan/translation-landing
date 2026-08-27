@@ -28,7 +28,15 @@
     "eyebrow": "Agence de traduction · Loutsk",
     "title": "Agence de traduction Babylon à Loutsk",
     "tagline": "Nous traduisons vos documents vers toutes les langues du monde et prenons en charge toutes les formalités — de la notarisation à l'apostille et à la légalisation.",
-    "ribbonLabel": "Le mot « traduction » dans les langues du monde"
+    "ribbonLabel": "Services de traduction et de légalisation les plus demandés",
+    "highlights": [
+      "Traduction vers l'anglais",
+      "Traduction vers le polonais",
+      "Traduction vers l'allemand",
+      "Apostille de documents scolaires",
+      "Traduction notariée du passeport",
+      "Traduction de l'acte de naissance"
+    ]
   },
   "services": {
     "title": "Nos services",
