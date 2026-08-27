@@ -1,8 +1,17 @@
 /**
  * Canonical language list for the order-request form. Values are sent to
- * the order-requests API verbatim and must match this list exactly.
+ * the order-requests API verbatim and must match this list exactly — no
+ * localization, the option label is always the canonical English name.
+ * The most requested languages for a Lutsk-based agency are pinned to the
+ * top; the rest follow alphabetically.
  */
 export const languages = [
+  "English",
+  "Ukrainian",
+  "Polish",
+  "German",
+  "Dutch",
+  "Bulgarian",
   "Afrikaans",
   "Albanian",
   "Arabic",
@@ -10,18 +19,14 @@ export const languages = [
   "Azerbaijani",
   "Belarusian",
   "Bosnian",
-  "Bulgarian",
   "Chinese",
   "Croatian",
   "Czech",
   "Danish",
-  "Dutch",
-  "English",
   "Estonian",
   "Finnish",
   "French",
   "Georgian",
-  "German",
   "Greek",
   "Hebrew",
   "Hindi",
@@ -41,7 +46,6 @@ export const languages = [
   "Montenegrin",
   "Norwegian",
   "Persian",
-  "Polish",
   "Portuguese",
   "Romanian",
   "Russian",
@@ -55,75 +59,9 @@ export const languages = [
   "Thai",
   "Turkish",
   "Turkmen",
-  "Ukrainian",
   "Urdu",
   "Uzbek",
   "Vietnamese",
 ] as const;
 
 export type Language = (typeof languages)[number];
-
-/** Ukrainian display names for the default locale. Other locales fall back to the canonical English name. */
-const languageLabelsUk: Record<Language, string> = {
-  Afrikaans: "Африкаанс",
-  Albanian: "Албанська",
-  Arabic: "Арабська",
-  Armenian: "Вірменська",
-  Azerbaijani: "Азербайджанська",
-  Belarusian: "Білоруська",
-  Bosnian: "Боснійська",
-  Bulgarian: "Болгарська",
-  Chinese: "Китайська",
-  Croatian: "Хорватська",
-  Czech: "Чеська",
-  Danish: "Данська",
-  Dutch: "Нідерландська",
-  English: "Англійська",
-  Estonian: "Естонська",
-  Finnish: "Фінська",
-  French: "Французька",
-  Georgian: "Грузинська",
-  German: "Німецька",
-  Greek: "Грецька",
-  Hebrew: "Іврит",
-  Hindi: "Гінді",
-  Hungarian: "Угорська",
-  Icelandic: "Ісландська",
-  Indonesian: "Індонезійська",
-  Italian: "Італійська",
-  Japanese: "Японська",
-  Kazakh: "Казахська",
-  Korean: "Корейська",
-  Kyrgyz: "Киргизька",
-  Latin: "Латина",
-  Latvian: "Латвійська",
-  Lithuanian: "Литовська",
-  Macedonian: "Македонська",
-  Malay: "Малайська",
-  Montenegrin: "Чорногорська",
-  Norwegian: "Норвезька",
-  Persian: "Перська",
-  Polish: "Польська",
-  Portuguese: "Португальська",
-  Romanian: "Румунська",
-  Russian: "Російська",
-  Serbian: "Сербська",
-  Slovak: "Словацька",
-  Slovenian: "Словенська",
-  Spanish: "Іспанська",
-  Swahili: "Суахілі",
-  Swedish: "Шведська",
-  Tajik: "Таджицька",
-  Thai: "Тайська",
-  Turkish: "Турецька",
-  Turkmen: "Туркменська",
-  Ukrainian: "Українська",
-  Urdu: "Урду",
-  Uzbek: "Узбецька",
-  Vietnamese: "В'єтнамська",
-};
-
-/** Display label for a canonical language value, localized for uk and falling back to English elsewhere. */
-export function languageLabel(language: Language, locale: string): string {
-  return locale === "uk" ? languageLabelsUk[language] : language;
-}

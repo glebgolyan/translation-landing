@@ -2,7 +2,7 @@
 
 import { useRef, useState, type ChangeEvent, type FormEvent, type MouseEvent } from "react";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
-import { languages, languageLabel, type Language } from "@/lib/languages";
+import { languages, type Language } from "@/lib/languages";
 import { orderRequestApi } from "@/lib/site";
 
 type PreferredContact = "EMAIL" | "VIBER" | "WHATSAPP" | "TELEGRAM";
@@ -39,7 +39,7 @@ function formatBytes(bytes: number): string {
   return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
 }
 
-export function OrderModal({ dict, locale }: { dict: Dictionary; locale: string }) {
+export function OrderModal({ dict }: { dict: Dictionary }) {
   const t = dict.orderForm;
   const dialogRef = useRef<HTMLDialogElement>(null);
   const [values, setValues] = useState<FormValues>(emptyValues);
@@ -177,7 +177,7 @@ export function OrderModal({ dict, locale }: { dict: Dictionary; locale: string 
                     <option value="">{t.languagePlaceholder}</option>
                     {languages.map((lang) => (
                       <option key={lang} value={lang}>
-                        {languageLabel(lang, locale)}
+                        {lang}
                       </option>
                     ))}
                   </select>
@@ -190,7 +190,7 @@ export function OrderModal({ dict, locale }: { dict: Dictionary; locale: string 
                     <option value="">{t.languagePlaceholder}</option>
                     {languages.map((lang) => (
                       <option key={lang} value={lang}>
-                        {languageLabel(lang, locale)}
+                        {lang}
                       </option>
                     ))}
                   </select>

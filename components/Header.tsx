@@ -13,7 +13,7 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         <span className="brandName">Babylon</span>
       </a>
       <div className="headerActions">
-        <OrderModal dict={dict} locale={locale} />
+        <OrderModal dict={dict} />
         <LanguageSwitcher current={locale} label={dict.header.language} />
         <ThemeToggle
           toggleLabel={dict.header.themeToggle}
