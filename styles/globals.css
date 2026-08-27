@@ -625,8 +625,7 @@ a {
 
 .formField input[type="text"],
 .formField input[type="tel"],
-.formField input[type="email"],
-.formField select {
+.formField input[type="email"] {
   font: inherit;
   font-weight: 400;
   padding: 0.6rem 0.75rem;
@@ -634,6 +633,28 @@ a {
   border-radius: 10px;
   background: var(--bg);
   color: var(--ink);
+}
+
+.formField select {
+  appearance: none;
+  font: inherit;
+  font-weight: 400;
+  padding: 0.6rem 2.25rem 0.6rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background-color: var(--bg);
+  color: var(--ink);
+  cursor: pointer;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+    linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 18px) 55%, calc(100% - 13px) 55%;
+  background-size: 5px 5px;
+  background-repeat: no-repeat;
+}
+
+[dir="rtl"] .formField select {
+  padding: 0.6rem 0.75rem 0.6rem 2.25rem;
+  background-position: 18px 55%, 13px 55%;
 }
 
 .formField input:focus-visible,
