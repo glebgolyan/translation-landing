@@ -63,7 +63,15 @@
   "hours": {
     "title": "ساعات العمل",
     "closed": "مغلق",
-    "days": ["الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"]
+    "days": [
+      "الاثنين",
+      "الثلاثاء",
+      "الأربعاء",
+      "الخميس",
+      "الجمعة",
+      "السبت",
+      "الأحد"
+    ]
   },
   "map": {
     "title": "موقعنا",
@@ -95,5 +103,45 @@
         "answer": "نعم، الترجمة إلى اللغة البولندية من أكثر الخدمات طلبًا لدينا نظرًا لقرب لوتسك من الحدود البولندية. نقدّم الترجمة العادية والترجمة الموثقة لدى كاتب العدل على حد سواء."
       }
     ]
+  },
+  "orderForm": {
+    "ctaButton": "اطلب ترجمة",
+    "modalTitle": "اطلب ترجمة",
+    "modalDescription": "املأ النموذج وسنتواصل معك قريبًا.",
+    "sourceLanguageLabel": "اللغة المصدر",
+    "targetLanguageLabel": "اللغة الهدف",
+    "languagePlaceholder": "اختر لغة",
+    "clientNameLabel": "الاسم كما هو مكتوب في المستند",
+    "clientNamePlaceholder": "أحمد محمد",
+    "phoneLabel": "الهاتف",
+    "phonePlaceholder": "+380 63 344 1021",
+    "emailLabel": "البريد الإلكتروني (اختياري)",
+    "emailPlaceholder": "you@example.com",
+    "preferredContactLabel": "طريقة التواصل المفضلة",
+    "preferredContactOptions": {
+      "EMAIL": "البريد الإلكتروني",
+      "VIBER": "Viber",
+      "WHATSAPP": "WhatsApp",
+      "TELEGRAM": "Telegram"
+    },
+    "filesLabel": "ملفات المستندات (اختياري)",
+    "filesHint": "حتى 20 ملفًا، بحد أقصى 50 ميغابايت لكل ملف. الصيغ المسموحة: JPG, PNG, PDF, DOC, DOCX.",
+    "removeFileAria": "إزالة الملف",
+    "submitButton": "إرسال الطلب",
+    "submittingButton": "جارٍ الإرسال...",
+    "closeAria": "إغلاق",
+    "successTitle": "شكرًا لك!",
+    "successMessage": "تم استلام طلبك. سنتواصل معك قريبًا.",
+    "closeButton": "إغلاق",
+    "errorGeneric": "تعذّر إرسال الطلب. يرجى المحاولة مرة أخرى أو الاتصال بنا.",
+    "errors": {
+      "required": "هذا الحقل مطلوب",
+      "clientNameLength": "أدخل بين 1 و150 حرفًا",
+      "phoneFormat": "الهاتف: أرقام، +، أقواس، شرطة أو مسافات، 5–30 حرفًا",
+      "emailFormat": "عنوان بريد إلكتروني غير صالح",
+      "fileCount": "الحد الأقصى 20 ملفًا",
+      "fileSize": "كل ملف بحد أقصى 50 ميغابايت",
+      "fileType": "الصيغ المسموحة: JPG, PNG, PDF, DOC, DOCX"
+    }
   }
 }

@@ -63,7 +63,15 @@
   "hours": {
     "title": "কাজের সময়",
     "closed": "বন্ধ",
-    "days": ["সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার", "রবিবার"]
+    "days": [
+      "সোমবার",
+      "মঙ্গলবার",
+      "বুধবার",
+      "বৃহস্পতিবার",
+      "শুক্রবার",
+      "শনিবার",
+      "রবিবার"
+    ]
   },
   "map": {
     "title": "আমাদের ঠিকানা",
@@ -95,5 +103,45 @@
         "answer": "হ্যাঁ, লুৎস্ক পোল্যান্ড সীমান্তের কাছাকাছি হওয়ায় পোলিশ ভাষায় অনুবাদ আমাদের সবচেয়ে জনপ্রিয় সেবাগুলোর একটি। আমরা সাধারণ ও নোটারি-সত্যায়িত উভয় ধরনের অনুবাদই করি।"
       }
     ]
+  },
+  "orderForm": {
+    "ctaButton": "অনুবাদের অর্ডার দিন",
+    "modalTitle": "অনুবাদের অর্ডার দিন",
+    "modalDescription": "ফর্মটি পূরণ করুন — আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।",
+    "sourceLanguageLabel": "মূল ভাষা",
+    "targetLanguageLabel": "লক্ষ্য ভাষা",
+    "languagePlaceholder": "ভাষা নির্বাচন করুন",
+    "clientNameLabel": "নথিতে লেখা নাম",
+    "clientNamePlaceholder": "করিম উদ্দিন",
+    "phoneLabel": "ফোন",
+    "phonePlaceholder": "+380 63 344 1021",
+    "emailLabel": "ইমেইল (ঐচ্ছিক)",
+    "emailPlaceholder": "you@example.com",
+    "preferredContactLabel": "পছন্দের যোগাযোগ মাধ্যম",
+    "preferredContactOptions": {
+      "EMAIL": "ইমেইল",
+      "VIBER": "Viber",
+      "WHATSAPP": "WhatsApp",
+      "TELEGRAM": "Telegram"
+    },
+    "filesLabel": "নথির ফাইল (ঐচ্ছিক)",
+    "filesHint": "সর্বোচ্চ ২০টি ফাইল, প্রতিটি ৫০ MB পর্যন্ত। ফরম্যাট: JPG, PNG, PDF, DOC, DOCX।",
+    "removeFileAria": "ফাইল সরান",
+    "submitButton": "অনুরোধ পাঠান",
+    "submittingButton": "পাঠানো হচ্ছে...",
+    "closeAria": "বন্ধ করুন",
+    "successTitle": "ধন্যবাদ!",
+    "successMessage": "আপনার অনুরোধ পাওয়া গেছে। আমরা শীঘ্রই যোগাযোগ করব।",
+    "closeButton": "বন্ধ করুন",
+    "errorGeneric": "অনুরোধ পাঠানো যায়নি। আবার চেষ্টা করুন অথবা আমাদের কল করুন।",
+    "errors": {
+      "required": "এই ক্ষেত্রটি আবশ্যক",
+      "clientNameLength": "১ থেকে ১৫০ অক্ষরের মধ্যে লিখুন",
+      "phoneFormat": "ফোন: সংখ্যা, +, বন্ধনী, হাইফেন বা স্পেস, ৫–৩০ অক্ষর",
+      "emailFormat": "অবৈধ ইমেইল ঠিকানা",
+      "fileCount": "সর্বোচ্চ ২০টি ফাইল",
+      "fileSize": "প্রতিটি ফাইল ৫০ MB পর্যন্ত",
+      "fileType": "অনুমোদিত ফরম্যাট: JPG, PNG, PDF, DOC, DOCX"
+    }
   }
 }

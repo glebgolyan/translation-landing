@@ -63,7 +63,15 @@
   "hours": {
     "title": "Working hours",
     "closed": "Closed",
-    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
   },
   "map": {
     "title": "Where to find us",
@@ -95,5 +103,45 @@
         "answer": "Yes — translation into Polish is one of our most popular services, given how close Lutsk is to the Polish border. We provide both standard and notarized translation."
       }
     ]
+  },
+  "orderForm": {
+    "ctaButton": "Order a translation",
+    "modalTitle": "Order a translation",
+    "modalDescription": "Fill in the form and we'll get back to you shortly.",
+    "sourceLanguageLabel": "Source language",
+    "targetLanguageLabel": "Target language",
+    "languagePlaceholder": "Select a language",
+    "clientNameLabel": "Full name as written in the document",
+    "clientNamePlaceholder": "John Michael Smith",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "+380 63 344 1021",
+    "emailLabel": "Email (optional)",
+    "emailPlaceholder": "you@example.com",
+    "preferredContactLabel": "Preferred contact method",
+    "preferredContactOptions": {
+      "EMAIL": "Email",
+      "VIBER": "Viber",
+      "WHATSAPP": "WhatsApp",
+      "TELEGRAM": "Telegram"
+    },
+    "filesLabel": "Document files (optional)",
+    "filesHint": "Up to 20 files, 50 MB each. Formats: JPG, PNG, PDF, DOC, DOCX.",
+    "removeFileAria": "Remove file",
+    "submitButton": "Send request",
+    "submittingButton": "Sending...",
+    "closeAria": "Close",
+    "successTitle": "Thank you!",
+    "successMessage": "Your request has been received. We'll get back to you shortly.",
+    "closeButton": "Close",
+    "errorGeneric": "Couldn't send the request. Please try again or call us.",
+    "errors": {
+      "required": "This field is required",
+      "clientNameLength": "Enter between 1 and 150 characters",
+      "phoneFormat": "Phone: digits, +, parentheses, hyphens or spaces, 5–30 characters",
+      "emailFormat": "Invalid email address",
+      "fileCount": "Maximum 20 files",
+      "fileSize": "Each file up to 50 MB",
+      "fileType": "Allowed formats: JPG, PNG, PDF, DOC, DOCX"
+    }
   }
 }

@@ -3,6 +3,7 @@ import type { Dictionary } from "@/lib/i18n/dictionaries";
 import { Logo } from "./Logo";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { ThemeToggle } from "./ThemeToggle";
+import { OrderModal } from "./OrderModal";
 
 export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   return (
@@ -12,6 +13,7 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         <span className="brandName">Babylon</span>
       </a>
       <div className="headerActions">
+        <OrderModal dict={dict} locale={locale} />
         <LanguageSwitcher current={locale} label={dict.header.language} />
         <ThemeToggle
           toggleLabel={dict.header.themeToggle}

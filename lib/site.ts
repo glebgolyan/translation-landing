@@ -51,3 +51,12 @@ export const contactLinks = {
   email: `mailto:${site.email}`,
   phone: `tel:${site.phoneE164}`,
 } as const;
+
+/** Order-request form constraints — kept in sync with the order-requests API. */
+export const orderRequestApi = {
+  url: "https://api.babylontranslationagency.com/api/order-requests",
+  maxFiles: 20,
+  maxFileSizeBytes: 50 * 1024 * 1024,
+  allowedFileExtensions: ["jpg", "jpeg", "png", "pdf", "doc", "docx"],
+  fileInputAccept: ".jpg,.jpeg,.png,.pdf,.doc,.docx",
+} as const;

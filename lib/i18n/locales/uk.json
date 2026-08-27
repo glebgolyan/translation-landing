@@ -99,5 +99,45 @@
         "answer": "Так, переклад на польську мову — один із найпопулярніших напрямків нашого бюро завдяки близькості Луцька до кордону з Польщею. Виконуємо як звичайний, так і нотаріально засвідчений переклад."
       }
     ]
+  },
+  "orderForm": {
+    "ctaButton": "Замовити переклад",
+    "modalTitle": "Замовити переклад",
+    "modalDescription": "Заповніть форму — ми зв'яжемося з вами найближчим часом.",
+    "sourceLanguageLabel": "Мова оригіналу",
+    "targetLanguageLabel": "Мова перекладу",
+    "languagePlaceholder": "Оберіть мову",
+    "clientNameLabel": "ПІБ як у документі",
+    "clientNamePlaceholder": "Іваненко Іван Іванович",
+    "phoneLabel": "Телефон",
+    "phonePlaceholder": "+380 63 344 1021",
+    "emailLabel": "Електронна пошта (необов'язково)",
+    "emailPlaceholder": "you@example.com",
+    "preferredContactLabel": "Зручний спосіб зв'язку",
+    "preferredContactOptions": {
+      "EMAIL": "Ел. пошта",
+      "VIBER": "Viber",
+      "WHATSAPP": "WhatsApp",
+      "TELEGRAM": "Telegram"
+    },
+    "filesLabel": "Файли документів (необов'язково)",
+    "filesHint": "До 20 файлів, до 50 МБ кожен. Формати: JPG, PNG, PDF, DOC, DOCX.",
+    "removeFileAria": "Прибрати файл",
+    "submitButton": "Надіслати заявку",
+    "submittingButton": "Надсилаємо...",
+    "closeAria": "Закрити",
+    "successTitle": "Дякуємо!",
+    "successMessage": "Вашу заявку отримано. Ми зв'яжемося з вами найближчим часом.",
+    "closeButton": "Закрити",
+    "errorGeneric": "Не вдалося надіслати заявку. Спробуйте ще раз або зателефонуйте нам.",
+    "errors": {
+      "required": "Обов'язкове поле",
+      "clientNameLength": "Введіть від 1 до 150 символів",
+      "phoneFormat": "Телефон: цифри, +, дужки, дефіс або пробіли, 5–30 символів",
+      "emailFormat": "Некоректна електронна адреса",
+      "fileCount": "Максимум 20 файлів",
+      "fileSize": "Кожен файл до 50 МБ",
+      "fileType": "Дозволені формати: JPG, PNG, PDF, DOC, DOCX"
+    }
   }
 }

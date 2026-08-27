@@ -63,7 +63,15 @@
   "hours": {
     "title": "Horário de funcionamento",
     "closed": "Fechado",
-    "days": ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado", "Domingo"]
+    "days": [
+      "Segunda-feira",
+      "Terça-feira",
+      "Quarta-feira",
+      "Quinta-feira",
+      "Sexta-feira",
+      "Sábado",
+      "Domingo"
+    ]
   },
   "map": {
     "title": "Onde nos encontrar",
@@ -95,5 +103,45 @@
         "answer": "Sim, a tradução para polaco é um dos serviços mais procurados na nossa agência, dada a proximidade de Lutsk à fronteira polaca. Fazemos tanto tradução simples como tradução notarizada."
       }
     ]
+  },
+  "orderForm": {
+    "ctaButton": "Encomendar uma tradução",
+    "modalTitle": "Encomendar uma tradução",
+    "modalDescription": "Preencha o formulário — entraremos em contacto brevemente.",
+    "sourceLanguageLabel": "Idioma de origem",
+    "targetLanguageLabel": "Idioma de destino",
+    "languagePlaceholder": "Selecione um idioma",
+    "clientNameLabel": "Nome completo tal como consta no documento",
+    "clientNamePlaceholder": "João Silva",
+    "phoneLabel": "Telefone",
+    "phonePlaceholder": "+380 63 344 1021",
+    "emailLabel": "E-mail (opcional)",
+    "emailPlaceholder": "you@example.com",
+    "preferredContactLabel": "Método de contacto preferido",
+    "preferredContactOptions": {
+      "EMAIL": "E-mail",
+      "VIBER": "Viber",
+      "WHATSAPP": "WhatsApp",
+      "TELEGRAM": "Telegram"
+    },
+    "filesLabel": "Ficheiros de documentos (opcional)",
+    "filesHint": "Até 20 ficheiros, 50 MB cada. Formatos: JPG, PNG, PDF, DOC, DOCX.",
+    "removeFileAria": "Remover ficheiro",
+    "submitButton": "Enviar pedido",
+    "submittingButton": "A enviar...",
+    "closeAria": "Fechar",
+    "successTitle": "Obrigado!",
+    "successMessage": "O seu pedido foi recebido. Entraremos em contacto brevemente.",
+    "closeButton": "Fechar",
+    "errorGeneric": "Não foi possível enviar o pedido. Tente novamente ou ligue-nos.",
+    "errors": {
+      "required": "Campo obrigatório",
+      "clientNameLength": "Introduza entre 1 e 150 carateres",
+      "phoneFormat": "Telefone: dígitos, +, parênteses, hífen ou espaços, 5–30 carateres",
+      "emailFormat": "Endereço de e-mail inválido",
+      "fileCount": "Máximo de 20 ficheiros",
+      "fileSize": "Cada ficheiro até 50 MB",
+      "fileType": "Formatos permitidos: JPG, PNG, PDF, DOC, DOCX"
+    }
   }
 }
