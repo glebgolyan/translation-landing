@@ -34,6 +34,7 @@
     "title": "Unsere Dienstleistungen",
     "items": [
       "Übersetzungen in alle Weltsprachen",
+      "Übersetzungen ins Polnische (auch beglaubigt)",
       "Notarielle Beglaubigung von Übersetzungen",
       "Apostille für Dokumente",
       "Führungszeugnis",
@@ -73,5 +74,26 @@
   },
   "footer": {
     "rights": "Babylon Übersetzungsbüro. Alle Rechte vorbehalten."
+  },
+  "whyUs": {
+    "title": "Warum Babylon",
+    "lead": "Wir übernehmen den gesamten Prozess für Sie – Übersetzung, notarielle Beglaubigung, Apostille und Legalisierung –, sodass Sie nicht mehrere verschiedene Stellen aufsuchen müssen. Besonderen Wert legen wir auf Übersetzungen ins Polnische: Da Luzk nahe der polnischen Grenze liegt, gehört dies zu den meistgefragten Leistungen unserer Kundschaft."
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "question": "Was kostet eine Dokumentenübersetzung oder eine Apostille?",
+        "answer": "Der Preis hängt von der Sprache, dem Umfang des Dokuments und der Dringlichkeit ab. Rufen Sie uns an oder schreiben Sie uns – wir nennen Ihnen sofort den genauen Preis."
+      },
+      {
+        "question": "Wie lange dauert eine Apostille in Luzk?",
+        "answer": "Die Dauer hängt von der ausstellenden Behörde und der Dringlichkeit des Auftrags ab. Aktuelle Fristen erfahren Sie telefonisch oder per Messenger."
+      },
+      {
+        "question": "Übersetzen Sie Dokumente ins Polnische?",
+        "answer": "Ja, Übersetzungen ins Polnische gehören aufgrund der Nähe Luzks zur polnischen Grenze zu unseren gefragtesten Leistungen. Wir bieten sowohl einfache als auch notariell beglaubigte Übersetzungen an."
+      }
+    ]
   }
 }

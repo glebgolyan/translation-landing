@@ -464,6 +464,76 @@ a {
   color: var(--ink-2);
 }
 
+/* ============ SEO content: why-us + FAQ ============ */
+
+.seoSection {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.25rem, 2.5vh, 2rem);
+  padding-block: clamp(1.25rem, 2.5vh, 2rem);
+  border-block-start: 1px solid var(--line);
+}
+
+@media (min-width: 48rem) {
+  .seoSection {
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: clamp(1.5rem, 3vw, 3rem);
+  }
+}
+
+.leadText {
+  margin: 0;
+  max-inline-size: 60ch;
+  color: var(--ink-2);
+  font-size: 0.95rem;
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.faqItem {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding-inline: 0.9rem;
+  background: var(--surface);
+}
+
+.faqItem summary {
+  cursor: pointer;
+  padding-block: 0.75rem;
+  font-weight: 500;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.faqItem summary::-webkit-details-marker {
+  display: none;
+}
+
+.faqItem summary::after {
+  content: "+";
+  color: var(--gold-soft);
+  flex: none;
+}
+
+.faqItem[open] summary::after {
+  content: "\2212";
+}
+
+.faqAnswer {
+  margin: 0 0 0.9rem;
+  color: var(--ink-2);
+  font-size: 0.93rem;
+  max-inline-size: 60ch;
+}
+
 /* ============ Footer ============ */
 
 .footer {
@@ -481,8 +551,7 @@ a {
 
 @media (min-width: 64rem) {
   .page {
-    block-size: 100dvh;
-    overflow: hidden;
+    min-block-size: 100dvh;
   }
 
   .hoursRow {
@@ -492,7 +561,6 @@ a {
   .main {
     grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
     align-content: stretch;
-    overflow: hidden;
   }
 
   .colAside {
@@ -561,7 +629,8 @@ a {
   .services,
   .contacts,
   .mapSection,
-  .hoursSection {
+  .hoursSection,
+  .seoSection {
     animation: rise 0.5s ease both;
   }
 

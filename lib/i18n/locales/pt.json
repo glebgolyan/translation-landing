@@ -34,6 +34,7 @@
     "title": "Os nossos serviços",
     "items": [
       "Tradução para todos os idiomas do mundo",
+      "Tradução para polaco (incluindo juramentada)",
       "Notarização de traduções",
       "Apostila de documentos",
       "Certificado de antecedentes criminais",
@@ -65,5 +66,26 @@
   },
   "footer": {
     "rights": "Agência de tradução Babylon. Todos os direitos reservados."
+  },
+  "whyUs": {
+    "title": "Porquê escolher a Babylon",
+    "lead": "Tratamos de todo o processo por si: tradução, notarização, apostila e legalização, sem que precise de recorrer a vários locais diferentes. Damos destaque especial à tradução para polaco: dada a proximidade de Lutsk à fronteira polaca, é um dos serviços mais procurados pelos nossos clientes."
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "items": [
+      {
+        "question": "Quanto custa a tradução de documentos ou uma apostila?",
+        "answer": "O preço depende do idioma, da extensão do documento e da urgência. Ligue-nos ou escreva-nos — indicamos de imediato o preço exato."
+      },
+      {
+        "question": "Quanto tempo demora uma apostila em Lutsk?",
+        "answer": "O prazo depende do organismo que emitiu o documento e da urgência do pedido. Confirme os prazos atuais por telefone ou mensagem."
+      },
+      {
+        "question": "Traduzem documentos para polaco?",
+        "answer": "Sim, a tradução para polaco é um dos serviços mais procurados na nossa agência, dada a proximidade de Lutsk à fronteira polaca. Fazemos tanto tradução simples como tradução notarizada."
+      }
+    ]
   }
 }

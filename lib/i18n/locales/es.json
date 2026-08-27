@@ -34,6 +34,7 @@
     "title": "Nuestros servicios",
     "items": [
       "Traducción a todos los idiomas del mundo",
+      "Traducción al polaco (incluida la jurada)",
       "Notarización de traducciones",
       "Apostilla de documentos",
       "Certificado de antecedentes penales",
@@ -65,5 +66,26 @@
   },
   "footer": {
     "rights": "Agencia de traducción Babylon. Todos los derechos reservados."
+  },
+  "whyUs": {
+    "title": "Por qué elegir Babylon",
+    "lead": "Nos encargamos de todo el proceso: traducción, notarización, apostilla y legalización, sin que tenga que acudir a varios sitios distintos. Damos especial importancia a la traducción al polaco: dada la cercanía de Lutsk a la frontera con Polonia, es uno de los servicios más solicitados por nuestros clientes."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Cuánto cuesta traducir documentos o tramitar una apostilla?",
+        "answer": "El precio depende del idioma, la extensión del documento y la urgencia. Llámenos o escríbanos: le daremos el precio exacto de inmediato."
+      },
+      {
+        "question": "¿Cuánto tarda una apostilla en Lutsk?",
+        "answer": "El plazo depende del organismo que emitió el documento y de la urgencia del pedido. Consulte los plazos actuales por teléfono o mensajería."
+      },
+      {
+        "question": "¿Traducen documentos al polaco?",
+        "answer": "Sí, la traducción al polaco es uno de los servicios más solicitados en nuestra agencia, dada la cercanía de Lutsk a la frontera con Polonia. Ofrecemos tanto traducción simple como notariada."
+      }
+    ]
   }
 }

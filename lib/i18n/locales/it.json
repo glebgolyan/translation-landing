@@ -34,6 +34,7 @@
     "title": "I nostri servizi",
     "items": [
       "Traduzioni in tutte le lingue del mondo",
+      "Traduzioni in polacco (anche giurate)",
       "Autenticazione notarile delle traduzioni",
       "Apostille dei documenti",
       "Certificato dei carichi pendenti",
@@ -73,5 +74,26 @@
   },
   "footer": {
     "rights": "Agenzia di Traduzioni Babylon. Tutti i diritti riservati."
+  },
+  "whyUs": {
+    "title": "Perché scegliere Babylon",
+    "lead": "Ci occupiamo dell'intero processo: traduzione, autenticazione notarile, apostille e legalizzazione, senza bisogno di rivolgersi a più uffici diversi. Diamo particolare risalto alle traduzioni in polacco: data la vicinanza di Lutsk al confine polacco, è uno dei servizi più richiesti dai nostri clienti."
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "question": "Quanto costa la traduzione di documenti o un'apostille?",
+        "answer": "Il prezzo dipende dalla lingua, dalla lunghezza del documento e dall'urgenza. Chiamateci o scriveteci: vi comunicheremo subito il prezzo esatto."
+      },
+      {
+        "question": "Quanto tempo richiede l'apostille a Lutsk?",
+        "answer": "I tempi dipendono dall'ente che ha emesso il documento e dall'urgenza dell'ordine. Verificate i tempi attuali telefonicamente o via messaggistica."
+      },
+      {
+        "question": "Traducete documenti in polacco?",
+        "answer": "Sì, la traduzione in polacco è uno dei servizi più richiesti nella nostra agenzia, data la vicinanza di Lutsk al confine polacco. Offriamo sia traduzioni semplici sia traduzioni autenticate notarilmente."
+      }
+    ]
   }
 }

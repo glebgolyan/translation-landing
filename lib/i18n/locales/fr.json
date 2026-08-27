@@ -34,6 +34,7 @@
     "title": "Nos services",
     "items": [
       "Traduction vers toutes les langues du monde",
+      "Traduction vers le polonais (y compris assermentée)",
       "Notarisation des traductions",
       "Apostille de documents",
       "Certificat de non-condamnation",
@@ -65,5 +66,26 @@
   },
   "footer": {
     "rights": "Agence de traduction Babylon. Tous droits réservés."
+  },
+  "whyUs": {
+    "title": "Pourquoi choisir Babylon",
+    "lead": "Nous prenons en charge tout le processus : traduction, notarisation, apostille et légalisation, sans que vous ayez à vous rendre dans plusieurs endroits différents. Nous mettons particulièrement l'accent sur la traduction vers le polonais : Loutsk étant proche de la frontière polonaise, c'est l'une des prestations les plus demandées par nos clients."
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "question": "Combien coûte la traduction de documents ou une apostille ?",
+        "answer": "Le prix dépend de la langue, du volume du document et de l'urgence. Appelez-nous ou écrivez-nous : nous vous communiquerons immédiatement le prix exact."
+      },
+      {
+        "question": "Combien de temps prend une apostille à Loutsk ?",
+        "answer": "Le délai dépend de l'autorité ayant délivré le document et de l'urgence de la commande. Vérifiez les délais actuels par téléphone ou messagerie."
+      },
+      {
+        "question": "Traduisez-vous des documents vers le polonais ?",
+        "answer": "Oui, la traduction vers le polonais est l'une de nos prestations les plus demandées, Loutsk étant proche de la frontière polonaise. Nous proposons aussi bien la traduction simple que la traduction notariée."
+      }
+    ]
   }
 }

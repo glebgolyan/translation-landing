@@ -14,6 +14,7 @@ export default async function LandingPage({ params }: PageProps) {
   const dict = await getDictionary(locale as Locale);
 
   return (
+    <>
     <main className="main" id="main">
       {/* Left column: message + conversion */}
       <div className="col colContent">
@@ -88,5 +89,29 @@ export default async function LandingPage({ params }: PageProps) {
         </section>
       </div>
     </main>
+
+    <section className="seoSection" aria-labelledby="why-us-title">
+      <div>
+        <h2 id="why-us-title" className="sectionTitle">
+          {dict.whyUs.title}
+        </h2>
+        <p className="leadText">{dict.whyUs.lead}</p>
+      </div>
+
+      <div>
+        <h2 id="faq-title" className="sectionTitle">
+          {dict.faq.title}
+        </h2>
+        <div className="faqList" aria-labelledby="faq-title">
+          {dict.faq.items.map((item) => (
+            <details key={item.question} className="faqItem">
+              <summary>{item.question}</summary>
+              <p className="faqAnswer">{item.answer}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+    </>
   );
 }

@@ -15,6 +15,7 @@ export const site = {
   phoneE164: "+380963441021",
   email: "babylon.lutsk@gmail.com",
   telegramUser: "babylonTranslationAgency",
+  instagramUrl: "https://www.instagram.com/babylon.lutsk/",
 
   /** Physical address (native form is localized in dictionaries). */
   address: {
