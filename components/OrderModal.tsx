@@ -131,7 +131,11 @@ export function OrderModal({ dict }: { dict: Dictionary }) {
       formData.append("preferredContact", values.preferredContact);
       files.forEach((file) => formData.append("files", file));
 
-      const response = await fetch(orderRequestApi.url, { method: "POST", body: formData });
+      const response = await fetch(orderRequestApi.url, {
+        method: "POST",
+        headers: { "X-Request-Token": orderRequestApi.requestToken },
+        body: formData,
+      });
       if (!response.ok) throw new Error(`Request failed with status ${response.status}`);
       setStatus("success");
     } catch {
