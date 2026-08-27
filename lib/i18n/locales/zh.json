@@ -63,7 +63,15 @@
   "hours": {
     "title": "营业时间",
     "closed": "休息",
-    "days": ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"]
+    "days": [
+      "星期一",
+      "星期二",
+      "星期三",
+      "星期四",
+      "星期五",
+      "星期六",
+      "星期日"
+    ]
   },
   "map": {
     "title": "地址位置",
@@ -95,5 +103,45 @@
         "answer": "是的，由于卢茨克靠近波兰边境，波兰语翻译是我们最受欢迎的服务之一。我们提供普通翻译和公证翻译两种服务。"
       }
     ]
+  },
+  "orderForm": {
+    "ctaButton": "预约翻译",
+    "modalTitle": "预约翻译",
+    "modalDescription": "请填写表单，我们会尽快与您联系。",
+    "sourceLanguageLabel": "源语言",
+    "targetLanguageLabel": "目标语言",
+    "languagePlaceholder": "选择语言",
+    "clientNameLabel": "姓名（与文件上一致）",
+    "clientNamePlaceholder": "张伟",
+    "phoneLabel": "电话",
+    "phonePlaceholder": "+380 63 344 1021",
+    "emailLabel": "电子邮箱（选填）",
+    "emailPlaceholder": "you@example.com",
+    "preferredContactLabel": "首选联系方式",
+    "preferredContactOptions": {
+      "EMAIL": "电子邮箱",
+      "VIBER": "Viber",
+      "WHATSAPP": "WhatsApp",
+      "TELEGRAM": "Telegram"
+    },
+    "filesLabel": "文件资料（选填）",
+    "filesHint": "最多20个文件，每个不超过50MB。格式：JPG、PNG、PDF、DOC、DOCX。",
+    "removeFileAria": "移除文件",
+    "submitButton": "提交申请",
+    "submittingButton": "正在提交...",
+    "closeAria": "关闭",
+    "successTitle": "谢谢！",
+    "successMessage": "我们已收到您的申请，会尽快与您联系。",
+    "closeButton": "关闭",
+    "errorGeneric": "提交失败，请重试或直接致电我们。",
+    "errors": {
+      "required": "此字段为必填项",
+      "clientNameLength": "请输入1到150个字符",
+      "phoneFormat": "电话：数字、+、括号、连字符或空格，5–30个字符",
+      "emailFormat": "电子邮箱格式不正确",
+      "fileCount": "最多20个文件",
+      "fileSize": "每个文件不超过50MB",
+      "fileType": "允许的格式：JPG、PNG、PDF、DOC、DOCX"
+    }
   }
 }

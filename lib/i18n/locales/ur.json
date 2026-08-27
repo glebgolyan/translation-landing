@@ -63,7 +63,15 @@
   "hours": {
     "title": "اوقاتِ کار",
     "closed": "بند",
-    "days": ["پیر", "منگل", "بدھ", "جمعرات", "جمعہ", "ہفتہ", "اتوار"]
+    "days": [
+      "پیر",
+      "منگل",
+      "بدھ",
+      "جمعرات",
+      "جمعہ",
+      "ہفتہ",
+      "اتوار"
+    ]
   },
   "map": {
     "title": "ہمارا پتہ",
@@ -95,5 +103,45 @@
         "answer": "جی ہاں، لُتسک کے پولینڈ سرحد کے قریب ہونے کی وجہ سے پولش زبان میں ترجمہ ہماری سب سے مقبول خدمات میں سے ایک ہے۔ ہم عام اور نوٹری تصدیق شدہ، دونوں طرح کے تراجم فراہم کرتے ہیں۔"
       }
     ]
+  },
+  "orderForm": {
+    "ctaButton": "ترجمہ آرڈر کریں",
+    "modalTitle": "ترجمہ آرڈر کریں",
+    "modalDescription": "فارم پر کریں — ہم جلد ہی آپ سے رابطہ کریں گے۔",
+    "sourceLanguageLabel": "ماخذ زبان",
+    "targetLanguageLabel": "ہدف زبان",
+    "languagePlaceholder": "زبان منتخب کریں",
+    "clientNameLabel": "دستاویز میں لکھا گیا نام",
+    "clientNamePlaceholder": "احمد علی",
+    "phoneLabel": "فون",
+    "phonePlaceholder": "+380 63 344 1021",
+    "emailLabel": "ای میل (اختیاری)",
+    "emailPlaceholder": "you@example.com",
+    "preferredContactLabel": "رابطے کا پسندیدہ طریقہ",
+    "preferredContactOptions": {
+      "EMAIL": "ای میل",
+      "VIBER": "Viber",
+      "WHATSAPP": "WhatsApp",
+      "TELEGRAM": "Telegram"
+    },
+    "filesLabel": "دستاویزات کی فائلیں (اختیاری)",
+    "filesHint": "زیادہ سے زیادہ 20 فائلیں، ہر ایک 50 MB تک۔ فارمیٹس: JPG, PNG, PDF, DOC, DOCX۔",
+    "removeFileAria": "فائل ہٹائیں",
+    "submitButton": "درخواست بھیجیں",
+    "submittingButton": "بھیجا جا رہا ہے...",
+    "closeAria": "بند کریں",
+    "successTitle": "شکریہ!",
+    "successMessage": "آپ کی درخواست موصول ہو گئی ہے۔ ہم جلد ہی آپ سے رابطہ کریں گے۔",
+    "closeButton": "بند کریں",
+    "errorGeneric": "درخواست بھیجی نہیں جا سکی۔ دوبارہ کوشش کریں یا ہمیں کال کریں۔",
+    "errors": {
+      "required": "یہ خانہ ضروری ہے",
+      "clientNameLength": "1 سے 150 حروف درج کریں",
+      "phoneFormat": "فون: ہندسے، +، بریکٹس، ہائفن یا اسپیس، 5–30 حروف",
+      "emailFormat": "غلط ای میل ایڈریس",
+      "fileCount": "زیادہ سے زیادہ 20 فائلیں",
+      "fileSize": "ہر فائل 50 MB تک",
+      "fileType": "منظور شدہ فارمیٹس: JPG, PNG, PDF, DOC, DOCX"
+    }
   }
 }

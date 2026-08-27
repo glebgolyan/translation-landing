@@ -17,6 +17,7 @@
   --logo-bg: #20337a;
   --logo-fg: #f3f5fb;
   --shadow: 0 1px 2px rgb(16 27 62 / 0.05), 0 8px 24px rgb(16 27 62 / 0.06);
+  --danger: #b3261e;
 
   --font-display: "Literata Variable", "Literata", Georgia, "Times New Roman", serif;
   --font-body: "IBM Plex Sans", -apple-system, "Segoe UI", Roboto, "Noto Sans",
@@ -38,6 +39,7 @@
   --logo-bg: #1c2b66;
   --logo-fg: #f3f5fb;
   --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 24px rgb(0 0 0 / 0.35);
+  --danger: #f28b82;
 
   color-scheme: dark;
 }
@@ -115,7 +117,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
   padding-block: 0.9rem;
   border-block-end: 1px solid var(--line);
 }
@@ -141,6 +144,8 @@ a {
 .headerActions {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 0.5rem;
 }
 
@@ -183,6 +188,27 @@ a {
 .themeToggle:hover {
   border-color: var(--gold);
   color: var(--gold-soft);
+}
+
+.orderButton {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 1rem;
+  border: 1px solid var(--gold);
+  border-radius: 10px;
+  background: var(--gold);
+  color: var(--logo-bg);
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.orderButton:hover {
+  background: var(--gold-soft);
+  transform: translateY(-1px);
 }
 
 :root[data-theme="dark"] .iconMoon,
@@ -521,6 +547,251 @@ a {
   color: var(--ink-2);
   font-size: 0.93rem;
   max-inline-size: 60ch;
+}
+
+/* ============ Order modal ============ */
+
+.orderDialog {
+  margin: auto;
+  padding: 0;
+  border: none;
+  border-radius: 16px;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  inline-size: min(94vw, 40rem);
+  max-block-size: min(90vh, 48rem);
+}
+
+.orderDialog::backdrop {
+  background: rgb(11 16 34 / 0.6);
+}
+
+.orderDialogInner {
+  position: relative;
+  padding: clamp(1.5rem, 4vw, 2.25rem);
+  overflow-y: auto;
+  max-block-size: min(90vh, 48rem);
+}
+
+.dialogClose {
+  position: absolute;
+  inset-block-start: 1rem;
+  inset-inline-end: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 2.1rem;
+  block-size: 2.1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink-2);
+  cursor: pointer;
+}
+
+.dialogClose:hover {
+  border-color: var(--gold);
+  color: var(--gold-soft);
+}
+
+.orderForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  padding-inline-end: 1.75rem;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 30rem) {
+  .formRow {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.formField input[type="text"],
+.formField input[type="tel"],
+.formField input[type="email"] {
+  font: inherit;
+  font-weight: 400;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.formField select {
+  appearance: none;
+  font: inherit;
+  font-weight: 400;
+  padding: 0.6rem 2.25rem 0.6rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background-color: var(--bg);
+  color: var(--ink);
+  cursor: pointer;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+    linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 18px) 55%, calc(100% - 13px) 55%;
+  background-size: 5px 5px;
+  background-repeat: no-repeat;
+}
+
+[dir="rtl"] .formField select {
+  padding: 0.6rem 0.75rem 0.6rem 2.25rem;
+  background-position: 18px 55%, 13px 55%;
+}
+
+.formField input:focus-visible,
+.formField select:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 1px;
+}
+
+.formField input[type="file"] {
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--ink-2);
+}
+
+.formFieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.formFieldset legend {
+  padding: 0;
+  margin: 0 0 0.35rem;
+}
+
+.contactOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.2rem;
+}
+
+.radioOption {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 400;
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+
+.formHint {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--ink-2);
+}
+
+.formError {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--danger);
+}
+
+.formErrorGeneric {
+  margin: 0;
+}
+
+.fileList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.fileListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  font-size: 0.85rem;
+}
+
+.fileListName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fileListSize {
+  color: var(--ink-2);
+}
+
+.fileRemove {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink-2);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.fileRemove:hover {
+  background: var(--line);
+  color: var(--ink);
+}
+
+.submitButton {
+  align-self: flex-start;
+  padding: 0.7rem 1.4rem;
+  border: 1px solid var(--gold);
+  border-radius: 10px;
+  background: var(--gold);
+  color: var(--logo-bg);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
+}
+
+.submitButton:hover:not(:disabled) {
+  background: var(--gold-soft);
+  transform: translateY(-1px);
+}
+
+.submitButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.orderSuccess {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
 }
 
 /* ============ Footer ============ */

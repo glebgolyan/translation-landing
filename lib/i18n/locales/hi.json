@@ -63,7 +63,15 @@
   "hours": {
     "title": "कार्य समय",
     "closed": "बंद",
-    "days": ["सोमवार", "मंगलवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार", "रविवार"]
+    "days": [
+      "सोमवार",
+      "मंगलवार",
+      "बुधवार",
+      "गुरुवार",
+      "शुक्रवार",
+      "शनिवार",
+      "रविवार"
+    ]
   },
   "map": {
     "title": "हमारा पता",
@@ -95,5 +103,45 @@
         "answer": "जी हाँ, लुत्स्क के पोलैंड सीमा के निकट होने के कारण पोलिश भाषा में अनुवाद हमारी सबसे लोकप्रिय सेवाओं में से एक है। हम सामान्य और नोटरी-सत्यापित, दोनों तरह के अनुवाद करते हैं।"
       }
     ]
+  },
+  "orderForm": {
+    "ctaButton": "अनुवाद ऑर्डर करें",
+    "modalTitle": "अनुवाद ऑर्डर करें",
+    "modalDescription": "फॉर्म भरें — हम शीघ्र ही आपसे संपर्क करेंगे।",
+    "sourceLanguageLabel": "मूल भाषा",
+    "targetLanguageLabel": "लक्ष्य भाषा",
+    "languagePlaceholder": "भाषा चुनें",
+    "clientNameLabel": "दस्तावेज़ में लिखा नाम",
+    "clientNamePlaceholder": "राम शर्मा",
+    "phoneLabel": "फ़ोन",
+    "phonePlaceholder": "+380 63 344 1021",
+    "emailLabel": "ईमेल (वैकल्पिक)",
+    "emailPlaceholder": "you@example.com",
+    "preferredContactLabel": "संपर्क का पसंदीदा माध्यम",
+    "preferredContactOptions": {
+      "EMAIL": "ईमेल",
+      "VIBER": "Viber",
+      "WHATSAPP": "WhatsApp",
+      "TELEGRAM": "Telegram"
+    },
+    "filesLabel": "दस्तावेज़ फ़ाइलें (वैकल्पिक)",
+    "filesHint": "अधिकतम 20 फ़ाइलें, प्रत्येक 50 MB तक। फ़ॉर्मैट: JPG, PNG, PDF, DOC, DOCX।",
+    "removeFileAria": "फ़ाइल हटाएं",
+    "submitButton": "अनुरोध भेजें",
+    "submittingButton": "भेजा जा रहा है...",
+    "closeAria": "बंद करें",
+    "successTitle": "धन्यवाद!",
+    "successMessage": "आपका अनुरोध प्राप्त हो गया है। हम शीघ्र ही आपसे संपर्क करेंगे।",
+    "closeButton": "बंद करें",
+    "errorGeneric": "अनुरोध भेजा नहीं जा सका। कृपया पुनः प्रयास करें या हमें कॉल करें।",
+    "errors": {
+      "required": "यह फ़ील्ड आवश्यक है",
+      "clientNameLength": "1 से 150 वर्णों के बीच दर्ज करें",
+      "phoneFormat": "फ़ोन: अंक, +, कोष्ठक, हाइफ़न या स्पेस, 5–30 वर्ण",
+      "emailFormat": "अमान्य ईमेल पता",
+      "fileCount": "अधिकतम 20 फ़ाइलें",
+      "fileSize": "प्रत्येक फ़ाइल 50 MB तक",
+      "fileType": "स्वीकृत फ़ॉर्मैट: JPG, PNG, PDF, DOC, DOCX"
+    }
   }
 }

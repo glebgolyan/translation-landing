@@ -107,5 +107,45 @@
         "answer": "Tak, tłumaczenia na język polski to jeden z najpopularniejszych kierunków w naszym biurze — ze względu na bliskość Łucka do granicy z Polską. Wykonujemy zarówno tłumaczenia zwykłe, jak i poświadczone notarialnie."
       }
     ]
+  },
+  "orderForm": {
+    "ctaButton": "Zamów tłumaczenie",
+    "modalTitle": "Zamów tłumaczenie",
+    "modalDescription": "Wypełnij formularz — skontaktujemy się wkrótce.",
+    "sourceLanguageLabel": "Język źródłowy",
+    "targetLanguageLabel": "Język docelowy",
+    "languagePlaceholder": "Wybierz język",
+    "clientNameLabel": "Imię i nazwisko zgodnie z dokumentem",
+    "clientNamePlaceholder": "Jan Kowalski",
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "+380 63 344 1021",
+    "emailLabel": "E-mail (opcjonalnie)",
+    "emailPlaceholder": "you@example.com",
+    "preferredContactLabel": "Preferowany sposób kontaktu",
+    "preferredContactOptions": {
+      "EMAIL": "E-mail",
+      "VIBER": "Viber",
+      "WHATSAPP": "WhatsApp",
+      "TELEGRAM": "Telegram"
+    },
+    "filesLabel": "Pliki dokumentów (opcjonalnie)",
+    "filesHint": "Do 20 plików, po 50 MB każdy. Formaty: JPG, PNG, PDF, DOC, DOCX.",
+    "removeFileAria": "Usuń plik",
+    "submitButton": "Wyślij zgłoszenie",
+    "submittingButton": "Wysyłanie...",
+    "closeAria": "Zamknij",
+    "successTitle": "Dziękujemy!",
+    "successMessage": "Twoje zgłoszenie zostało przyjęte. Skontaktujemy się wkrótce.",
+    "closeButton": "Zamknij",
+    "errorGeneric": "Nie udało się wysłać zgłoszenia. Spróbuj ponownie lub zadzwoń do nas.",
+    "errors": {
+      "required": "Pole wymagane",
+      "clientNameLength": "Wpisz od 1 do 150 znaków",
+      "phoneFormat": "Telefon: cyfry, +, nawiasy, myślnik lub spacje, 5–30 znaków",
+      "emailFormat": "Nieprawidłowy adres e-mail",
+      "fileCount": "Maksymalnie 20 plików",
+      "fileSize": "Każdy plik do 50 MB",
+      "fileType": "Dozwolone formaty: JPG, PNG, PDF, DOC, DOCX"
+    }
   }
 }

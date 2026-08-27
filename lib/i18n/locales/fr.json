@@ -63,7 +63,15 @@
   "hours": {
     "title": "Horaires d'ouverture",
     "closed": "Fermé",
-    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+    "days": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi",
+      "Dimanche"
+    ]
   },
   "map": {
     "title": "Où nous trouver",
@@ -95,5 +103,45 @@
         "answer": "Oui, la traduction vers le polonais est l'une de nos prestations les plus demandées, Loutsk étant proche de la frontière polonaise. Nous proposons aussi bien la traduction simple que la traduction notariée."
       }
     ]
+  },
+  "orderForm": {
+    "ctaButton": "Commander une traduction",
+    "modalTitle": "Commander une traduction",
+    "modalDescription": "Remplissez le formulaire, nous vous recontacterons rapidement.",
+    "sourceLanguageLabel": "Langue source",
+    "targetLanguageLabel": "Langue cible",
+    "languagePlaceholder": "Choisissez une langue",
+    "clientNameLabel": "Nom complet tel qu'indiqué sur le document",
+    "clientNamePlaceholder": "Jean Dupont",
+    "phoneLabel": "Téléphone",
+    "phonePlaceholder": "+380 63 344 1021",
+    "emailLabel": "E-mail (facultatif)",
+    "emailPlaceholder": "you@example.com",
+    "preferredContactLabel": "Moyen de contact préféré",
+    "preferredContactOptions": {
+      "EMAIL": "E-mail",
+      "VIBER": "Viber",
+      "WHATSAPP": "WhatsApp",
+      "TELEGRAM": "Telegram"
+    },
+    "filesLabel": "Fichiers des documents (facultatif)",
+    "filesHint": "Jusqu'à 20 fichiers, 50 Mo chacun. Formats : JPG, PNG, PDF, DOC, DOCX.",
+    "removeFileAria": "Supprimer le fichier",
+    "submitButton": "Envoyer la demande",
+    "submittingButton": "Envoi en cours...",
+    "closeAria": "Fermer",
+    "successTitle": "Merci !",
+    "successMessage": "Votre demande a bien été reçue. Nous vous recontacterons rapidement.",
+    "closeButton": "Fermer",
+    "errorGeneric": "Impossible d'envoyer la demande. Veuillez réessayer ou nous appeler.",
+    "errors": {
+      "required": "Champ obligatoire",
+      "clientNameLength": "Saisissez entre 1 et 150 caractères",
+      "phoneFormat": "Téléphone : chiffres, +, parenthèses, tiret ou espaces, 5–30 caractères",
+      "emailFormat": "Adresse e-mail invalide",
+      "fileCount": "20 fichiers maximum",
+      "fileSize": "Chaque fichier jusqu'à 50 Mo",
+      "fileType": "Formats autorisés : JPG, PNG, PDF, DOC, DOCX"
+    }
   }
 }

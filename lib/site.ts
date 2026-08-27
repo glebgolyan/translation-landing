@@ -51,3 +51,19 @@ export const contactLinks = {
   email: `mailto:${site.email}`,
   phone: `tel:${site.phoneE164}`,
 } as const;
+
+/** Order-request form constraints — kept in sync with the order-requests API. */
+export const orderRequestApi = {
+  url: "https://api.babylontranslationagency.com/api/order-requests",
+  /**
+   * Sent as the X-Request-Token header. Set NEXT_PUBLIC_ORDER_REQUEST_TOKEN
+   * in the environment (Vercel project settings + local .env.local) — kept
+   * out of source since NEXT_PUBLIC_ vars still end up in the client
+   * bundle, but at least aren't hardcoded into version control.
+   */
+  requestToken: process.env.NEXT_PUBLIC_ORDER_REQUEST_TOKEN ?? "",
+  maxFiles: 20,
+  maxFileSizeBytes: 50 * 1024 * 1024,
+  allowedFileExtensions: ["jpg", "jpeg", "png", "pdf", "doc", "docx"],
+  fileInputAccept: ".jpg,.jpeg,.png,.pdf,.doc,.docx",
+} as const;

@@ -103,5 +103,45 @@
         "answer": "Sì, la traduzione in polacco è uno dei servizi più richiesti nella nostra agenzia, data la vicinanza di Lutsk al confine polacco. Offriamo sia traduzioni semplici sia traduzioni autenticate notarilmente."
       }
     ]
+  },
+  "orderForm": {
+    "ctaButton": "Ordina una traduzione",
+    "modalTitle": "Ordina una traduzione",
+    "modalDescription": "Compila il modulo: ti risponderemo a breve.",
+    "sourceLanguageLabel": "Lingua di partenza",
+    "targetLanguageLabel": "Lingua di arrivo",
+    "languagePlaceholder": "Seleziona una lingua",
+    "clientNameLabel": "Nome e cognome come nel documento",
+    "clientNamePlaceholder": "Mario Rossi",
+    "phoneLabel": "Telefono",
+    "phonePlaceholder": "+380 63 344 1021",
+    "emailLabel": "E-mail (facoltativo)",
+    "emailPlaceholder": "you@example.com",
+    "preferredContactLabel": "Metodo di contatto preferito",
+    "preferredContactOptions": {
+      "EMAIL": "E-mail",
+      "VIBER": "Viber",
+      "WHATSAPP": "WhatsApp",
+      "TELEGRAM": "Telegram"
+    },
+    "filesLabel": "File dei documenti (facoltativo)",
+    "filesHint": "Fino a 20 file, 50 MB ciascuno. Formati: JPG, PNG, PDF, DOC, DOCX.",
+    "removeFileAria": "Rimuovi file",
+    "submitButton": "Invia richiesta",
+    "submittingButton": "Invio in corso...",
+    "closeAria": "Chiudi",
+    "successTitle": "Grazie!",
+    "successMessage": "La tua richiesta è stata ricevuta. Ti risponderemo a breve.",
+    "closeButton": "Chiudi",
+    "errorGeneric": "Impossibile inviare la richiesta. Riprova o chiamaci.",
+    "errors": {
+      "required": "Campo obbligatorio",
+      "clientNameLength": "Inserisci da 1 a 150 caratteri",
+      "phoneFormat": "Telefono: cifre, +, parentesi, trattino o spazi, 5–30 caratteri",
+      "emailFormat": "Indirizzo e-mail non valido",
+      "fileCount": "Massimo 20 file",
+      "fileSize": "Ogni file fino a 50 MB",
+      "fileType": "Formati consentiti: JPG, PNG, PDF, DOC, DOCX"
+    }
   }
 }

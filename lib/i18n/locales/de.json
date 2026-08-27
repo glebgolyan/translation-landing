@@ -103,5 +103,45 @@
         "answer": "Ja, Übersetzungen ins Polnische gehören aufgrund der Nähe Luzks zur polnischen Grenze zu unseren gefragtesten Leistungen. Wir bieten sowohl einfache als auch notariell beglaubigte Übersetzungen an."
       }
     ]
+  },
+  "orderForm": {
+    "ctaButton": "Übersetzung bestellen",
+    "modalTitle": "Übersetzung bestellen",
+    "modalDescription": "Füllen Sie das Formular aus – wir melden uns in Kürze bei Ihnen.",
+    "sourceLanguageLabel": "Ausgangssprache",
+    "targetLanguageLabel": "Zielsprache",
+    "languagePlaceholder": "Sprache auswählen",
+    "clientNameLabel": "Name wie im Dokument geschrieben",
+    "clientNamePlaceholder": "Max Mustermann",
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "+380 63 344 1021",
+    "emailLabel": "E-Mail (optional)",
+    "emailPlaceholder": "you@example.com",
+    "preferredContactLabel": "Bevorzugter Kontaktweg",
+    "preferredContactOptions": {
+      "EMAIL": "E-Mail",
+      "VIBER": "Viber",
+      "WHATSAPP": "WhatsApp",
+      "TELEGRAM": "Telegram"
+    },
+    "filesLabel": "Dokumentdateien (optional)",
+    "filesHint": "Bis zu 20 Dateien, je 50 MB. Formate: JPG, PNG, PDF, DOC, DOCX.",
+    "removeFileAria": "Datei entfernen",
+    "submitButton": "Anfrage senden",
+    "submittingButton": "Wird gesendet...",
+    "closeAria": "Schließen",
+    "successTitle": "Vielen Dank!",
+    "successMessage": "Ihre Anfrage ist eingegangen. Wir melden uns in Kürze bei Ihnen.",
+    "closeButton": "Schließen",
+    "errorGeneric": "Die Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder rufen Sie uns an.",
+    "errors": {
+      "required": "Pflichtfeld",
+      "clientNameLength": "Geben Sie 1 bis 150 Zeichen ein",
+      "phoneFormat": "Telefon: Ziffern, +, Klammern, Bindestrich oder Leerzeichen, 5–30 Zeichen",
+      "emailFormat": "Ungültige E-Mail-Adresse",
+      "fileCount": "Maximal 20 Dateien",
+      "fileSize": "Jede Datei bis 50 MB",
+      "fileType": "Erlaubte Formate: JPG, PNG, PDF, DOC, DOCX"
+    }
   }
 }
