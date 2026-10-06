@@ -11,7 +11,6 @@ import { getDictionary } from "@/lib/i18n/dictionaries";
 import { site } from "@/lib/site";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { JsonLd } from "@/components/seo/JsonLd";
 import { ThemeScript } from "@/components/ThemeScript";
 
 type LayoutProps = {
@@ -90,7 +89,6 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
         <ThemeScript />
       </head>
       <body>
-        <JsonLd locale={locale} dict={dict} />
         <div className="page">
           <Header locale={locale} dict={dict} />
           {children}
