@@ -903,3 +903,85 @@ a {
     order: 1;
   }
 }
+
+/* ============ Service pages ============ */
+
+.serviceLink {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 0.2em;
+}
+
+.serviceLink:hover {
+  text-decoration-color: var(--gold);
+}
+
+.article {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.25rem, 3vh, 2rem);
+  max-inline-size: 48rem;
+  padding-block: clamp(1.25rem, 3vh, 2.5rem);
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.85rem;
+  color: var(--ink-2);
+}
+
+.breadcrumbs li + li::before {
+  content: "/";
+  margin-inline-end: 0.4rem;
+  color: var(--gold-soft);
+}
+
+.breadcrumbs a {
+  color: inherit;
+}
+
+.articleSection {
+  padding-block-start: clamp(1rem, 2vh, 1.5rem);
+  border-block-start: 1px solid var(--line);
+}
+
+.articleSection .leadText + .leadText {
+  margin-block-start: 0.75rem;
+}
+
+.priceNote {
+  display: inline-block;
+  margin: 1rem 0 0;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+.reviewLink {
+  color: var(--gold-soft);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.reviewLink:hover {
+  text-decoration: underline;
+}
+
+/* Footer: copyright + review link on one row so the desktop layout stays single-viewport */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1.5rem;
+}

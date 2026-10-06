@@ -5,6 +5,8 @@ import { ContactButtons } from "@/components/ContactButtons";
 import { WorkingHours } from "@/components/WorkingHours";
 import { MapEmbed } from "@/components/MapEmbed";
 import { contactLinks, site } from "@/lib/site";
+import { serviceSlugForLabel } from "@/lib/services";
+import { JsonLd } from "@/components/seo/JsonLd";
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -15,6 +17,7 @@ export default async function LandingPage({ params }: PageProps) {
 
   return (
     <>
+    <JsonLd locale={locale} dict={dict} />
     <main className="main" id="main">
       {/* Left column: message + conversion */}
       <div className="col colContent">
@@ -43,11 +46,20 @@ export default async function LandingPage({ params }: PageProps) {
             {dict.services.title}
           </h2>
           <ul className="serviceList">
-            {dict.services.items.map((item) => (
-              <li key={item} className="serviceItem">
-                {item}
-              </li>
-            ))}
+            {dict.services.items.map((item) => {
+              const slug = serviceSlugForLabel(locale, item);
+              return (
+                <li key={item} className="serviceItem">
+                  {slug ? (
+                    <a className="serviceLink" href={`/${locale}/${slug}`}>
+                      {item}
+                    </a>
+                  ) : (
+                    item
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </section>
 

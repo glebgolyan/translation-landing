@@ -2,52 +2,70 @@ import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import { site } from "@/lib/site";
 
+export const orgId = `${site.url}/#organization`;
+export const webSiteId = `${site.url}/#website`;
+
+/** Organization / LocalBusiness node shared by every page's @graph. */
+export function organizationNode(dict: Dictionary) {
+  return {
+    "@type": ["Organization", "ProfessionalService", "LocalBusiness"],
+    "@id": orgId,
+    name: site.legalName,
+    alternateName: site.alternateNames,
+    url: site.url,
+    logo: `${site.url}/icon.svg`,
+    email: site.email,
+    telephone: site.phoneE164,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: site.address.streetAddress,
+      addressLocality: site.address.addressLocality,
+      addressRegion: site.address.addressRegion,
+      postalCode: site.address.postalCode,
+      addressCountry: site.address.addressCountry,
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: site.geo.latitude,
+      longitude: site.geo.longitude,
+    },
+    openingHoursSpecification: site.openingHours.map((spec) => ({
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: spec.days,
+      opens: spec.opens,
+      closes: spec.closes,
+    })),
+    makesOffer: dict.services.items.map((service) => ({
+      "@type": "Offer",
+      itemOffered: { "@type": "Service", name: service },
+    })),
+    hasMap: site.mapsUrl,
+    sameAs: [`https://t.me/${site.telegramUser}`, site.instagramUrl, site.mapsUrl],
+  };
+}
+
+/** Serializes a JSON-LD graph into a script tag (server-rendered). */
+export function JsonLdScript({ graph }: { graph: unknown }) {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(graph) }}
+    />
+  );
+}
+
 /**
- * Reusable structured-data component. Emits a single @graph with
+ * Homepage structured-data component. Emits a single @graph with
  * Organization + LocalBusiness (ProfessionalService), WebSite and
  * WebPage nodes, localized per route.
  */
 export function JsonLd({ locale, dict }: { locale: Locale; dict: Dictionary }) {
-  const orgId = `${site.url}/#organization`;
-  const webSiteId = `${site.url}/#website`;
   const pageUrl = `${site.url}/${locale}`;
 
   const graph = {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": ["Organization", "ProfessionalService", "LocalBusiness"],
-        "@id": orgId,
-        name: site.legalName,
-        url: site.url,
-        logo: `${site.url}/icon.svg`,
-        email: site.email,
-        telephone: site.phoneE164,
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: site.address.streetAddress,
-          addressLocality: site.address.addressLocality,
-          addressRegion: site.address.addressRegion,
-          postalCode: site.address.postalCode,
-          addressCountry: site.address.addressCountry,
-        },
-        geo: {
-          "@type": "GeoCoordinates",
-          latitude: site.geo.latitude,
-          longitude: site.geo.longitude,
-        },
-        openingHoursSpecification: site.openingHours.map((spec) => ({
-          "@type": "OpeningHoursSpecification",
-          dayOfWeek: spec.days,
-          opens: spec.opens,
-          closes: spec.closes,
-        })),
-        makesOffer: dict.services.items.map((service) => ({
-          "@type": "Offer",
-          itemOffered: { "@type": "Service", name: service },
-        })),
-        sameAs: [`https://t.me/${site.telegramUser}`, site.instagramUrl],
-      },
+      organizationNode(dict),
       {
         "@type": "WebSite",
         "@id": webSiteId,
@@ -79,10 +97,5 @@ export function JsonLd({ locale, dict }: { locale: Locale; dict: Dictionary }) {
     ],
   };
 
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(graph) }}
-    />
-  );
+  return <JsonLdScript graph={graph} />;
 }
