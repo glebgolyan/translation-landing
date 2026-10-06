@@ -77,6 +77,17 @@ export default async function ServicePageRoute({ params }: PageProps) {
         description: page.metaDescription,
         url: pageUrl,
         provider: { "@id": orgId },
+        ...(page.priceFrom && {
+          offers: {
+            "@type": "Offer",
+            priceCurrency: "UAH",
+            priceSpecification: {
+              "@type": "PriceSpecification",
+              minPrice: page.priceFrom,
+              priceCurrency: "UAH",
+            },
+          },
+        }),
         areaServed: { "@type": "City", name: site.address.addressLocality },
         inLanguage: locale,
       },
@@ -118,6 +129,7 @@ export default async function ServicePageRoute({ params }: PageProps) {
         <p className="eyebrow">{dict.hero.eyebrow}</p>
         <h1 className="title">{page.h1}</h1>
         <p className="tagline">{page.intro}</p>
+        {page.priceNote && <p className="priceNote">{page.priceNote}</p>}
       </header>
 
       {page.sections.map((section) => (
