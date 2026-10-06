@@ -9,6 +9,8 @@ export const site = {
   /** Brand name (Latin, used in logo, OG images and schema). */
   name: "Babylon",
   legalName: "Babylon Translation Agency",
+  /** Names people search for (matches the Google Business Profile). */
+  alternateNames: ["Бюро перекладів «Вавілон»", "Вавілон"],
 
   /** Contact channels */
   phoneDisplay: "096 344 1021",
@@ -25,8 +27,8 @@ export const site = {
     postalCode: "43000",
     addressCountry: "UA",
   },
-  /** Approximate coordinates of Vynnychenka St, 2, Lutsk (for LocalBusiness schema). */
-  geo: { latitude: 50.7442, longitude: 25.3232 },
+  /** Coordinates of the Google Business Profile pin (keep in sync with GBP). */
+  geo: { latitude: 50.7480738, longitude: 25.3267456 },
 
   /** Google Maps embed (iframe, no JS API) — keyless and lightweight. */
   mapEmbedSrc:
@@ -36,6 +38,11 @@ export const site = {
   mapLinkHref:
     "https://www.google.com/maps/search/?api=1&query=" +
     encodeURIComponent("вулиця Винниченка, 2, Луцьк, Волинська область, 43000"),
+
+  /** Google review link for the Business Profile (g.page short link). */
+  reviewUrl: "https://g.page/r/CRqRpyR9nPT1EBM/review",
+  /** Google Maps listing. */
+  mapsUrl: "https://maps.google.com/?cid=17722962494909550874",
 
   /** Opening hours — also rendered in the UI and in LocalBusiness schema. */
   openingHours: [

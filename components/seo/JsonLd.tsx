@@ -11,6 +11,7 @@ export function organizationNode(dict: Dictionary) {
     "@type": ["Organization", "ProfessionalService", "LocalBusiness"],
     "@id": orgId,
     name: site.legalName,
+    alternateName: site.alternateNames,
     url: site.url,
     logo: `${site.url}/icon.svg`,
     email: site.email,
@@ -38,7 +39,8 @@ export function organizationNode(dict: Dictionary) {
       "@type": "Offer",
       itemOffered: { "@type": "Service", name: service },
     })),
-    sameAs: [`https://t.me/${site.telegramUser}`, site.instagramUrl],
+    hasMap: site.mapsUrl,
+    sameAs: [`https://t.me/${site.telegramUser}`, site.instagramUrl, site.mapsUrl],
   };
 }
 

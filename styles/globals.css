@@ -967,3 +967,21 @@ a {
   font-size: 0.95rem;
   color: var(--ink);
 }
+
+.reviewLink {
+  color: var(--gold-soft);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.reviewLink:hover {
+  text-decoration: underline;
+}
+
+/* Footer: copyright + review link on one row so the desktop layout stays single-viewport */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1.5rem;
+}
