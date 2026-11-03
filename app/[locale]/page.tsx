@@ -5,7 +5,7 @@ import { ContactButtons } from "@/components/ContactButtons";
 import { WorkingHours } from "@/components/WorkingHours";
 import { MapEmbed } from "@/components/MapEmbed";
 import { contactLinks, site } from "@/lib/site";
-import { serviceSlugForLabel } from "@/lib/services";
+import { serviceSlugForHighlight, serviceSlugForLabel } from "@/lib/services";
 import { JsonLd } from "@/components/seo/JsonLd";
 
 type PageProps = { params: Promise<{ locale: string }> };
@@ -28,16 +28,25 @@ export default async function LandingPage({ params }: PageProps) {
           </h1>
           <p className="tagline">{dict.hero.tagline}</p>
           <p className="ribbon" aria-label={dict.hero.ribbonLabel}>
-            {dict.hero.highlights.map((item, i) => (
+            {dict.hero.highlights.map((item, i) => {
+              const slug = serviceSlugForHighlight(locale, item);
+              return (
               <span key={item} className="ribbonWord">
-                {item}
+                {slug ? (
+                  <a className="ribbonLink" href={`/${locale}/${slug}`}>
+                    {item}
+                  </a>
+                ) : (
+                  item
+                )}
                 {i < dict.hero.highlights.length - 1 && (
                   <span className="ribbonDot" aria-hidden="true">
                     ·
                   </span>
                 )}
               </span>
-            ))}
+              );
+            })}
           </p>
         </section>
 
